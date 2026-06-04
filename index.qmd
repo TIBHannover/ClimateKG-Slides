@@ -6,83 +6,104 @@ date: today
 footer: "CC-BY-SA 4.0 License"
 ---
 
-## Slide 1 {.smaller}
+## Slide 1: Title slide {.smaller}
+
+SW
 
 ---
 
-## Slide 2 {.smaller}
+## Slide 2: Problem {.smaller}
+
+SW
 
 ---
 
-## Slide 3 {.smaller}
+## Slide 3: Source material: What is the IPCC Report {.smaller}
+
+SW
 
 ---
 
-## Slide 4 {.smaller}
+## Slide 4: Solution {.smaller}
+
+SW
 
 ---
 
-## Slide 5: Overview {.smaller}
+## Slide 5: Siloed Data to FAIR Data - Overview {.smaller}
 
-Diagram
+<img src="images/workflow-overview.png" title="workflow" alt="workflow" width="100%"/>
 
 Text
 
 ---
 
-## Slide 6 {.smaller}
+## Slide 6: Scoping Data Source & Data Modeling  {.smaller}
+
+SW
 
 ---
 
-## Slide 7: Scrape process {.smaller}
+## Slide 7: Semi-automated Scrape System from Web to MediaWiki/Wikibase {.smaller}
 
-Diagram
+<img src="images/scrape-system.png" title="workflow" alt="workflow" width="100%"/>
 
 Text
 
 ---
 
-## Slide 8: Collecting supporting data {.smaller}
+## Slide 8: Collecting Supporting Data {.smaller}
 
-Diagram
-and
-Text
-
----
-
-## Slide 9 {.smaller}
-
----
-
-## Slide 10 {.smaller}
-
----
-
-## Slide 11: Text corpus in MediaWiki {.smaller}
-
-Screenshot
+<img src="images/supporting-data.png" title="workflow" alt="workflow" width="100%"/>
 
 Text
 
 ---
 
-## Slide 12: Paged media {.smaller}
+## Slide 9: Import Scrape Data  {.smaller}
 
-Diagram?
+SW
+
+---
+
+## Slide 10: Import Supporting Data  {.smaller}
+
+SW
+
+---
+
+## Slide 11: Text Corpus in MediaWiki {.smaller}
+
+<img src="images/browse-clean.png" title="workflow" alt="workflow" width="100%"/>
 
 Text
 
 ---
 
-## Slide 13 {.smaller}
+## Slide 12: Output option: CSS Paged media {.smaller}
+
+<img src="images/typeset-output.png" title="workflow" alt="workflow" width="100%"/>
+
+
+Text
 
 ---
 
-## Slide 14 {.smaller}
+## Slide 13: DevOps {.smaller}
+
+SW
 
 ---
 
-## Slide 15 {.smaller}
+## Slide 14:  Data Visualisation {.smaller}
+
+SW
+
+---
+
+## Slide 15: Outlook & Goodbye {.smaller}
+
+SW
 
 ---
 
