@@ -6,7 +6,7 @@ date: today
 footer: "CC-BY-SA 4.0 License"
 ---
 
-## The NCP Pipeline Overview {.smaller}
+## Slide 1 {.smaller}
 
 Project objective: To enable multi-format textbook production, including computational parts, for the Open Access textbook publisher 'OpenRewi'.
 
