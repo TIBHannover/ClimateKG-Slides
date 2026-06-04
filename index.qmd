@@ -45,7 +45,7 @@ Text
 ## Slide 8: Collecting supporting data {.smaller}
 
 Diagram
-
+and
 Text
 
 ---
