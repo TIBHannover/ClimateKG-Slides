@@ -8,22 +8,6 @@ footer: "CC-BY-SA 4.0 License"
 
 ## Slide 1 {.smaller}
 
-Project objective: To enable multi-format textbook production, including computational parts, for the Open Access textbook publisher 'OpenRewi'.
-
-Nextcloud is used as a foundation for a new open-source software tool.
-
-<img src="images/main3.drawio.png" title="pipeline" alt="pipeline" width="100%"/>
-
-::: notes
-```{dot}
-//| file: diagrams/main.dot
-```
-:::
-
----
-
-## Slide 1 {.smaller}
-
 ---
 
 ## Slide 2 {.smaller}
@@ -38,7 +22,11 @@ Nextcloud is used as a foundation for a new open-source software tool.
 
 ---
 
-## Slide 5 {.smaller}
+## Slide 5: Overview {.smaller}
+
+Diagram
+
+Text
 
 ---
 
@@ -46,11 +34,19 @@ Nextcloud is used as a foundation for a new open-source software tool.
 
 ---
 
-## Slide 7 {.smaller}
+## Slide 7: Scrape process {.smaller}
+
+Diagram
+
+Text
 
 ---
 
-## Slide 8 {.smaller}
+## Slide 8: Collecting supporting data {.smaller}
+
+Diagram
+
+Text
 
 ---
 
@@ -62,11 +58,19 @@ Nextcloud is used as a foundation for a new open-source software tool.
 
 ---
 
-## Slide 11 {.smaller}
+## Slide 11: Text corpus in MediaWiki {.smaller}
+
+Screenshot
+
+Text
 
 ---
 
-## Slide 12 {.smaller}
+## Slide 12: Paged media {.smaller}
+
+Diagram?
+
+Text
 
 ---
 
