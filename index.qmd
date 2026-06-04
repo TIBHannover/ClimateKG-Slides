@@ -1,6 +1,6 @@
 ---
-title: "Nextcloud Publishing (NCP) — Pipeline Schematic"
-subtitle: "A first stage Beta open-source software development project — digital sovereign by design"
+title: "Climate Knowledge Graph"
+subtitle: "A first stage Beta open-source software development project tralala"
 author: "Team NCP: VEStOR (FHP); TIB"
 date: today
 footer: "CC-BY-SA 4.0 License"
