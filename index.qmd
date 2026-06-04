@@ -20,6 +20,68 @@ Nextcloud is used as a foundation for a new open-source software tool.
 ```
 :::
 
+---
+
+## Slide 1 {.smaller}
+
+---
+
+## Slide 2 {.smaller}
+
+---
+
+## Slide 3 {.smaller}
+
+---
+
+## Slide 4 {.smaller}
+
+---
+
+## Slide 5 {.smaller}
+
+---
+
+## Slide 6 {.smaller}
+
+---
+
+## Slide 7 {.smaller}
+
+---
+
+## Slide 8 {.smaller}
+
+---
+
+## Slide 9 {.smaller}
+
+---
+
+## Slide 10 {.smaller}
+
+---
+
+## Slide 11 {.smaller}
+
+---
+
+## Slide 12 {.smaller}
+
+---
+
+## Slide 13 {.smaller}
+
+---
+
+## Slide 14 {.smaller}
+
+---
+
+## Slide 15 {.smaller}
+
+---
+
 ## Pipeline Stages {.smaller}
 
 *Definitions and tech stack*
