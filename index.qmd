@@ -82,8 +82,7 @@ Text
 
 ## Slide 12: Output option: CSS Paged media {.smaller}
 
-<img src="images/typeset-output.png" title="workflow" alt="workflow" width="100%"/>
-
+<img src="images/typeset-output.png" title="workflow" alt="workflow" width="50%"/>
 
 Text
 
