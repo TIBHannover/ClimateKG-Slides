@@ -36,7 +36,7 @@ SW
 
 • From Siloed Data to FAIR Data
 
-• Finding the sources, retrieving the data, storing it, prepare different ways of outputting and visualising it, and making it available for reuse
+• Finding the sources, retrieving the data, storing it, preparing different ways of outputting and visualizing it, and making it available for reuse
 
 ---
 
@@ -50,9 +50,9 @@ SW
 
 <img src="images/scrape-system.png" title="workflow" alt="workflow" width="100%"/>
 
-• Building a semi-automated Scrape System from Web to MediaWiki/Wikibase:
+• Building a semi-automated scraping system from Web to MediaWiki/Wikibase
 
-• Using the IPCC Website(s) as a starting point, develop a method for scraping the text, assets and additional data
+• Using the IPCC websites as a starting point, developing a method for scraping text, assets, and additional data
 
 • Preparing the data for import into a MediaWiki/Wikibase instance
 
@@ -62,9 +62,9 @@ SW
 
 <img src="images/supporting-data.png" title="workflow" alt="workflow" width="100%"/>
 
-• More data from different sources, e.g., IPCC data repositories, CrossRef, etc.
+• Additional data from various sources, e.g. IPCC data repositories, CrossRef, etc.
 
-•  Preparing the data for import into Wikibase
+• Preparing the data for import into Wikibase
 
 ---
 
@@ -83,26 +83,26 @@ SW
 ## Browsing the Corpus in MediaWiki {.smaller}
 
 ::::: columns
-::: {.column width="80%"}
+::: {.column width="60%"}
 <img src="images/browse-clean.jpg" title="workflow" alt="workflow" width="70%"/>
 :::
 
-::: {.column width="20%"}
-• Cleaning the chapters directly in MediaWiki
+::: {.column width="40%"}
+• Cleaning the chapter content directly in MediaWiki
 
 • Adding glossary and acronym content to MediaWiki
 
-• Building templates for corpus navigation and browsing
+• Building navigation and browsing templates for the corpus
 :::
 :::::
 
 ---
 
-## Output option: CSS Paged media {.smaller}
+## Output Option: CSS Paged Media {.smaller}
 
 <img src="images/typeset-output.png" title="workflow" alt="workflow" width="50%"/>
 
-• One possible option for outputting the data is using CSS Paged media to typeset the content in a print-like format
+• One possible output option is using CSS Paged Media to typeset the corpus content into a print-ready format
 
 ---
 
