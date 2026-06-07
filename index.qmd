@@ -82,19 +82,13 @@ SW
 
 ## Browsing the Corpus in MediaWiki {.smaller}
 
-::::: columns
-::: {.column width="60%"}
 <img src="images/browse-clean.jpg" title="workflow" alt="workflow" width="70%"/>
-:::
 
-::: {.column width="40%"}
 • Cleaning the chapter content directly in MediaWiki
 
 • Adding glossary and acronym content to MediaWiki
 
 • Building navigation and browsing templates for the corpus
-:::
-:::::
 
 ---
 
