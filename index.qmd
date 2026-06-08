@@ -16,7 +16,7 @@ The goal is to be a resource for data scientists, for citizen science activities
 
 ---
 
-## Source material: What is the IPCC Report {.smaller}
+## Source Material: What is the IPCC Report {.smaller}
 
 SW
 
