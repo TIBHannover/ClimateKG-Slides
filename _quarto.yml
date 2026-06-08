@@ -13,6 +13,7 @@ knitr:
 format:
   revealjs:
     theme: default
+    logo: images/tib-logo.png
     transition: slide
     background-transition: fade
     width: 1050
