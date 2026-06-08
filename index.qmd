@@ -106,6 +106,9 @@ SW
 
 • One possible **output option**: using **CSS Paged Media** to typeset the corpus content into a **print-ready format**
 
+::: aside
+<img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/>
+:::
 ---
 
 ## DevOps {.smaller}
