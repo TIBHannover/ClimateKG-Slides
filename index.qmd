@@ -88,7 +88,7 @@ SW
 
 ## Browsing the Corpus in MediaWiki {.smaller}
 
-<img src="images/browse-clean.jpg" title="workflow" alt="workflow" width="70%"/>
+<img src="images/browse-clean-list.jpg" title="workflow" alt="workflow" width="70%"/>
 
 • **Cleaning** the chapter content directly in MediaWiki
 
