@@ -271,8 +271,45 @@ Simon Worthington &amp; Laura Oldenbourg — OSL@TIB
 </section>
 <section id="collecting-supporting-data" class="slide level2 smaller center">
 <h2>Collecting Supporting Data</h2>
+<div class="cell" data-reveal="true" data-file="diagrams/supporting-data.mmd" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+    A((Report))
+    B((Chapter))
+    AB1(Bibliographic Data)
+    C((Contributor))
+    C1(Name)
+    C2(Role)
+    C3(Gender)
+    C4(Country)
+    C5(Affiliation)
+    D((Glossary))
+    D1(Term)
+    D2(Definition)
+    E((Acronyms))
+    E1(Acronym)
+    E2(Description)
 
-<img src="images/supporting-data.png" title="workflow" alt="workflow" width="100%" class="r-stretch"><p>• Additional data from various sources, e.g.&nbsp;IPCC data repositories, CrossRef, etc.</p>
+    C --&gt; C1
+    C --&gt; C2
+    C --&gt; C3
+    C --&gt; C4
+    C --&gt; C5
+    D --&gt; D1
+    D --&gt; D2
+    E --&gt; E1
+    E --&gt; E2
+    A --&gt; AB1
+    B --&gt; AB1</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>• Additional data from various sources, e.g.&nbsp;IPCC data repositories, CrossRef, etc.</p>
 <p>• Preparing the data for import into Wikibase</p>
 </section>
 <section id="import-scrape-data" class="slide level2 smaller center">
@@ -292,8 +329,33 @@ Simon Worthington &amp; Laura Oldenbourg — OSL@TIB
 </section>
 <section id="output-option-css-paged-media" class="slide level2 smaller center">
 <h2>Output Option: CSS Paged Media</h2>
+<div class="cell" data-reveal="true" data-file="diagrams/typeset-output.mmd" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[MediaWiki]
+    B(API)
+    C[Output]
+    E[Other options, like Data dump or SPARQL query]
+    H[HTML]
+    I[CSS Paged Media]
+    J[Typesetting system]
 
-<img src="images/typeset-output.png" title="workflow" alt="workflow" width="50%" class="r-stretch"><p>• One possible output option is using CSS Paged Media to typeset the corpus content into a print-ready format</p>
+    A --&gt; E
+
+    A --&gt; B
+    B --&gt; H 
+    I --&gt; J 
+    H --&gt; J
+    J --&gt; C</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>• One possible output option is using CSS Paged Media to typeset the corpus content into a print-ready format</p>
 </section>
 <section id="devops" class="slide level2 smaller center">
 <h2>DevOps</h2>

@@ -65,8 +65,9 @@ SW
 
 ## Collecting Supporting Data {.smaller}
 
-<img src="images/supporting-data.png" title="workflow" alt="workflow" width="100%"/>
-
+```{mermaid}
+%%| file: diagrams/supporting-data.mmd
+```
 • Additional data from various sources, e.g. IPCC data repositories, CrossRef, etc.
 
 • Preparing the data for import into Wikibase
@@ -99,7 +100,9 @@ SW
 
 ## Output Option: CSS Paged Media {.smaller}
 
-<img src="images/typeset-output.png" title="workflow" alt="workflow" width="50%"/>
+```{mermaid}
+%%| file: diagrams/typeset-output.mmd
+```
 
 • One possible output option is using CSS Paged Media to typeset the corpus content into a print-ready format
 

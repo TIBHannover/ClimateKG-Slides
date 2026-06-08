@@ -1,0 +1,16 @@
+flowchart LR
+    A[MediaWiki]
+    B(API)
+    C[Output]
+    E[Other options, like Data dump or SPARQL query]
+    H[HTML]
+    I[CSS Paged Media]
+    J[Typesetting system]
+
+    A --> E
+
+    A --> B
+    B --> H 
+    I --> J 
+    H --> J
+    J --> C

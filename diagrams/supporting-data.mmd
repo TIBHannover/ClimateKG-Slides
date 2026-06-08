@@ -1,0 +1,28 @@
+flowchart TB
+    A((Report))
+    B((Chapter))
+    AB1(Bibliographic Data)
+    C((Contributor))
+    C1(Name)
+    C2(Role)
+    C3(Gender)
+    C4(Country)
+    C5(Affiliation)
+    D((Glossary))
+    D1(Term)
+    D2(Definition)
+    E((Acronyms))
+    E1(Acronym)
+    E2(Description)
+
+    C --> C1
+    C --> C2
+    C --> C3
+    C --> C4
+    C --> C5
+    D --> D1
+    D --> D2
+    E --> E1
+    E --> E2
+    A --> AB1
+    B --> AB1
