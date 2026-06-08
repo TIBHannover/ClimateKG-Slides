@@ -100,15 +100,20 @@ SW
 
 ## Output Option: CSS Paged Media {.smaller}
 
+::::: columns
+::: {.column width="50%"}
 ```{mermaid}
 %%| file: diagrams/typeset-output.mmd
 ```
+:::
+
+::: {.column width="50%"}
+<img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/>
+:::
+:::::
 
 • One possible **output option**: using **CSS Paged Media** to typeset the corpus content into a **print-ready format**
 
-::: aside
-<img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/>
-:::
 ---
 
 ## DevOps {.smaller}
