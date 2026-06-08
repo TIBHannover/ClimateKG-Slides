@@ -34,9 +34,9 @@ SW
 
 <img src="images/workflow-overview.png" title="workflow" alt="workflow" width="100%"/>
 
-• From Siloed Data to FAIR Data
+• From **Siloed Data** to **FAIR Data**
 
-• Finding the sources, retrieving the data, storing it, preparing different ways of outputting and visualizing it, and making it available for reuse
+• **Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**
 
 ---
 
