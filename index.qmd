@@ -51,7 +51,9 @@ SW
 
 ## Data Retrieval {.smaller}
 
-<img src="images/scrape-system.png" title="workflow" alt="workflow" width="100%"/>
+```{mermaid}
+%%| file: diagrams/scrape-system.mmd
+```
 
 • Building a semi-automated scraping system from Web to MediaWiki/Wikibase
 
