@@ -18,7 +18,10 @@ The goal is to be a resource for data scientists, for citizen science activities
 
 ## Source Material: What is the IPCC Report {.smaller}
 
-SW
+```{mermaid}
+%%| file: diagrams/workflow-overview.mmd
+```
+
 
 ## Problem {.smaller}
 
@@ -32,13 +35,12 @@ SW
 
 ---
 
-## Overview of work packages {.smaller}
-
-<img src="images/workflow-overview.png" title="workflow" alt="workflow" width="100%"/>
-
-• From **Siloed Data** to **FAIR Data**
-
-• **Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**
+## Overview of Workflow {.smaller}
+```{mermaid}
+%%| file: diagrams/workflow-overview.mmd
+```
+ - From **Siloed Data** to **FAIR Data**
+ - **Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**
 
 ---
 
