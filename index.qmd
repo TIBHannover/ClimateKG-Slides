@@ -8,17 +8,18 @@ footer: "CC-BY-SA 4.0 License"
 
 ## About ClimateKG {.smaller}
 
-Climate Knowledge Graph (ClimateKG) is a yearlong R&D project to create a knowledge graph of the IPCC Sixth Assement Report. The project has been funded by TIB Innovation Fund and is made in cooperation with #semanticClimate community (India, Germany, UK, and more).   
-
-The ClimateKG knowledge graph is built using Wikibase and MediaWiki. 
-
-The goal is to be a resource for data scientists, for citizen science activities, and to distribute data to Wikidata.
+- Climate Knowledge Graph (ClimateKG) is a yearlong R&D project to create a knowledge graph of the IPCC Sixth Assement Report (AR6). The project has been funded by TIB Innovation Fund and is made in cooperation with #semanticClimate community (India, Germany, UK, and more).   
+- The ClimateKG knowledge graph is built using Wikibase and MediaWiki. 
+- The goal is to be a resource for data scientists, for citizen science activities, and to distribute data to Wikidata.
 
 ---
 
-## Source Material: What is the IPCC Report {.smaller}
+## Source Material: What is the IPCC Report? {.smaller}
 
-SW
+> It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
+
+- A multilateral panel of 147 nations that reviews the global scientific literature to map out climate scenarios for the next 100 years with a combination of science, policy, and politics.
+- AR6 (a 6 year cycle since 1988): 932 authors; 7 Reports; 8 million words; 10,032 pages; 64,000 citations; 48,000 datas; 2,136 images; 1,910 Acronyms; 920 Glossary items. 
 
 ## Problem {.smaller}
 
