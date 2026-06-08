@@ -1,7 +1,7 @@
 ---
 title: "ClimateKG — Surfacing&nbsp;Knowledge"
 subtitle: "A community knowledge graph: Based on FAIR&nbsp;Data & Open&nbsp;Science Principles"
-author: "Simon Worthington & Laura Oldenbourg — OSL@TIB"
+author: "Simon Worthington & Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB – Leibniz Information Centre for Science and Technology"
 date: 2026-06-10
 footer: "CC-BY-SA 4.0 License"
 ---
@@ -20,8 +20,8 @@ footer: "CC-BY-SA 4.0 License"
 
 > It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
 
-- A multilateral panel of 195 nations that reviews the global scientific literature to map out climate scenarios for the next 100 years with a combination of science, policy, and politics.
-- AR6 ( $\approx$ 5-8 year cycle since 1988): 932 authors; 7 Reports; >8 million words; 10,047 pages; 48,400 citations; 66,834 datas; 2,136 images; 1,910 Acronyms; 920 Glossary items; 5 languages+ (partial).* 
+- A multilateral panel of 195 nations that reviews the global scientific literature to map out climate scenarios for the next 100 years combining science, policy, and politics.
+- AR6 ( $\approx$ 5-8 year cycle since 1988): 932 authors; 7 Reports; >8 million words; 10,047 pages; 48,400 citations; 66,834 data sets; 2,136 images; 1,910 Acronyms; 920 Glossary items; 5 languages+ (partial).* 
 
 ::: aside
 \* Oldenbourg, Laura, and Simon Worthington. "IPCC AR6 Quantification Summary". Climate Knowledge Graph, November 4, 2025. [10.5281/zenodo.17521936](https://doi.org/10.5281/zenodo.17521936).
