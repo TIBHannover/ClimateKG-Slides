@@ -29,8 +29,9 @@ SW
 ---
 
 ## Overview of work packages {.smaller}
-
-<img src="images/workflow-overview.png" title="workflow" alt="workflow" width="100%"/>
+```{mermaid}
+%%| file: diagrams/workflow-overview.mmd
+```
 
 • From **Siloed Data** to **FAIR Data**
 
