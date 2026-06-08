@@ -37,9 +37,9 @@ SW
 %%| file: diagrams/workflow-overview.mmd
 ```
 
-• From **Siloed Data** to **FAIR Data**
+- From **Siloed Data** to **FAIR Data**
 
-• **Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**
+- **Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**
 
 ---
 
