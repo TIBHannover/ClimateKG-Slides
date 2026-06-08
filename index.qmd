@@ -27,7 +27,7 @@ footer: "CC-BY-SA 4.0 License"
 \* Oldenbourg, Laura, and Simon Worthington. "IPCC AR6 Quantification Summary". Climate Knowledge Graph, November 4, 2025. [10.5281/zenodo.17521936](https://doi.org/10.5281/zenodo.17521936).
 :::
 
-## Problem {.smaller}
+## Problem: For the public to trust climate science it has as open {.smaller}
 
 ::::: columns
 ::: {.column width="50%"}
@@ -37,7 +37,6 @@ footer: "CC-BY-SA 4.0 License"
   - Formats of Web CMS HTML and PDF not suitable for data science
   - Referenced materials not interlinked - so only manual tracking to find a named data set, etc
   - Parts not easily available - Methodology, Supplementary material
-  - No content versioning 
 
 :::
 
@@ -48,8 +47,6 @@ footer: "CC-BY-SA 4.0 License"
   - Author lists have no link to chapters
   - Figures listed on web pages with no DOIs
   - Citations on websites and not research repositories
-  - Supporting materials with link rot
-     
 
 :::
 :::::
@@ -60,9 +57,12 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 
 ---
 
-## Solution {.smaller}
+## Solution: Apply the vision of the Semantic Web 🕸️ 
 
-SW
+> Link all of the parts and make machine readable — AKA a Knowledge Graph 
+
+- **Linked Data**: Interlinked data with unique identifiers and standard formats
+- **FAIR Data**: Findable, Accessible, Interoperable, and Reusable
 
 ---
 
