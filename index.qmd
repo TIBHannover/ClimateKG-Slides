@@ -67,9 +67,10 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 ---
 
 ## Overview of work packages 📦 {.smaller}
-```{mermaid}
-%%| file: diagrams/workflow-overview.mmd
-```
+
+
+<img src="images/workflow-overview.png" title="workflow" alt="workflow" width="70%"/>
+
 
 - From **Siloed Data** to **FAIR Data**
 

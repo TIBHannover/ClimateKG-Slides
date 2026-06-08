@@ -211,52 +211,8 @@ Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB –
 </section>
 <section id="overview-of-work-packages" class="slide level2 smaller center">
 <h2>Overview of work packages 📦</h2>
-<div class="cell" data-reveal="true" data-file="diagrams/workflow-overview.mmd" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    subgraph Data Sources
-      A[Scoping data sources +&lt;br&gt;Data Modeling] 
-    end
-    subgraph Data Retrieval
-      subgraph IPCC
-        B[Text / Images:&lt;br&gt;Scrape + Convert]
-      end
-      subgraph Other Sources
-        C[Supporting Data Collection]
-      end
-    end
-    subgraph Data Import
-      D[Import Text / Images]
-      E[Import Supporting Data]
-    end
-   subgraph DevOps
-      F((MediaWiki + Wikibase))
-   end
-    subgraph Data Output
-      G[Browse in MediaWiki]
-      H[Paged Media Output]
-      I[Data Visualisations]
-      J[More...]
-    end
-    A --&gt; B
-    B --&gt; D
-    A --&gt; C
-    C --&gt; E
-    D --&gt; F 
-    E --&gt; F
-    F --&gt; G
-    F --&gt; H
-    F --&gt; I 
-    F --&gt; J</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<ul>
+
+<img src="images/workflow-overview.png" title="workflow" alt="workflow" width="70%" class="r-stretch"><ul>
 <li><p>From <strong>Siloed Data</strong> to <strong>FAIR Data</strong></p></li>
 <li><p><strong>Finding</strong> the sources, <strong>retrieving</strong> the data, <strong>storing</strong> it, preparing different ways of <strong>outputting</strong> and <strong>visualizing</strong> it, and <strong>making it available for reuse</strong></p></li>
 </ul>
