@@ -1,14 +1,18 @@
 ---
-title: "Climate Knowledge Graph"
-subtitle: "— surfacing hidden knowledge"
-author: "Simon Worthington & Laura Oldenbourg"
+title: "ClimateKG — Surfacing&nbsp;Knowledge"
+subtitle: "A community knowledge graph: Based on FAIR&nbsp;Data & Open&nbsp;Science Principles"
+author: "Simon Worthington & Laura Oldenbourg — OSL@TIB"
 date: 2026-06-10
 footer: "CC-BY-SA 4.0 License"
 ---
 
 ## About ClimateKG {.smaller}
 
-SW
+Climate Knowledge Graph (ClimateKG) is a yearlong R&D project to create a knowledge graph of the IPCC Sixth Assement Report. The project has been funded by TIB Innovation Fund and is made in cooperation with #semanticClimate community (India, Germany, UK, and more).   
+
+The ClimateKG knowledge graph is built using Wikibase and MediaWiki. 
+
+The goal is to be a resource for data scientists, for citizen science activities, and to distribute data to Wikidata.
 
 ---
 
