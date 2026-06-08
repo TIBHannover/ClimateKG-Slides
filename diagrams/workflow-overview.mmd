@@ -1,0 +1,35 @@
+flowchart LR
+    subgraph Data Sources
+      A[Scoping data sources +<br>Data Modeling] 
+    end
+    subgraph Data Retrieval
+      subgraph IPCC
+        B[Text / Images:<br>Scrape + Convert]
+      end
+      subgraph Other Sources
+        C[Supporting Data Collection]
+      end
+    end
+    subgraph Data Import
+      D[Import Text / Images]
+      E[Import Supporting Data]
+    end
+   subgraph DevOps
+      F((MediaWiki + Wikibase))
+   end
+    subgraph Data Output
+      G[Browse in MediaWiki]
+      H[Paged Media Output]
+      I[Data Visualisations]
+      J[More...]
+    end
+    A --> B
+    B --> D
+    A --> C
+    C --> E
+    D --> F 
+    E --> F
+    F --> G
+    F --> H
+    F --> I 
+    F --> J
