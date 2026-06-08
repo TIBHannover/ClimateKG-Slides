@@ -81,7 +81,7 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 
 - In-scope and out-of-scope: Only the main text for AR6 has been currently imported, also citatations and data sets have not been linked.
 - Data modelling:
-  - Simple (KISS) approaches of Genome Bank and Protein Data Bank have been used to encourage community uptake.
+  - Simple (KISS) approaches of [[GenBank]](https://ngdc.cncb.ac.cn/databasecommons/database/id/1619) (Genome Databank) and [[Protein Data Bank]](https://www.wwpdb.org/) have been used to encourage community uptake.
   - Method: Bottom up / Top Down / and map to schemas
   - Lit review of Wikibase KGs consulted - [[Zotero collection]](https://www.zotero.org/groups/2437020/semanticclimate/collections/IXBQXNLH/tags/kg%20litreview%20must%20read/collection) 
 
@@ -116,15 +116,49 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 ---
 
-## Import Scrape Data  {.smaller}
+## Import Scrape Data - Innovation that allows for Corpus text and data import  {.smaller}
 
-SW
+This is the main innvation of the project - being able to semi-automatically webscrape a corpus and import text and images, and make a Linked Open Data corpus backbone as an Import to Wikibase and MediaWiki.
 
+Wikitext + CSV > XML > DTD > Python (WikibaseIntegrator) > Wikibase / MediaWiki
+
+Documentation: [wiki.kewl.org/projects:ckgscrape](https://wiki.kewl.org/projects:ckgscrape) 
+
+Code: Mercurial Clone `hg clone https://hg.kewl.org/pub/ckg_s2mw`
+
+Thank you to Darron M. Broad of Runstop for the software development work.
 ---
 
 ## Import Supporting Data  {.smaller}
 
-SW
+::::: columns
+::: {.column width="30%"}
+```{mermaid}
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#f0f0f0', 'primaryTextColor':'#000', 'primaryBorderColor':'#000', 'lineColor':'#666', 'fontSize':'18px'}, 'flowchart': {'nodeSpacing': 20, 'rankSpacing': 25, 'padding': 35, 'htmlLabels': true}}}%%
+flowchart TD
+    A[CSV] --> B[XML]
+    B --> C[DTD]
+    C --> D[Schemas]
+    D --> E[Python<br/>WikibaseIntegrator]
+    E --> F[Wikibase]
+    
+    style A min-width:150px
+    style B min-width:150px
+    style C min-width:150px
+    style D min-width:150px
+    style E min-width:250px
+    style F min-width:150px
+```
+:::
+
+::: {.column width="70%"}
+<img src="images/xml.png" title="xml" alt="xml" width="80%"/>
+:::
+:::::
+
+::: aside
+Data can be browsed as XML and XSLT transforms here: [ClimateKG Data](https://tibhannover.github.io/Climate-KG-data/xml-html-documentation.html) (See menu item: Data Documentation)   
+:::  
 
 ---
 
