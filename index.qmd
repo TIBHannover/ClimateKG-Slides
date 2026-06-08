@@ -1,24 +1,22 @@
 ---
 title: "Climate Knowledge Graph"
-subtitle: "Subtitle"
-author: "Team"
-date: today
+subtitle: "— surfacing hidden knowledge"
+author: "Simon Worthington & Laura Oldenbourg"
+date: 2026-06-10
 footer: "CC-BY-SA 4.0 License"
 ---
 
-## Title slide {.smaller}
-
-SW
-
----
-
-## Problem {.smaller}
+## About ClimateKG {.smaller}
 
 SW
 
 ---
 
 ## Source material: What is the IPCC Report {.smaller}
+
+SW
+
+## Problem {.smaller}
 
 SW
 
