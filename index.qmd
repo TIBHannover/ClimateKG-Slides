@@ -6,25 +6,25 @@ date: today
 footer: "CC-BY-SA 4.0 License"
 ---
 
-## Slide 1: Title slide {.smaller}
+## Title slide {.smaller}
 
 SW
 
 ---
 
-## Slide 2: Problem {.smaller}
+## Problem {.smaller}
 
 SW
 
 ---
 
-## Slide 3: Source material: What is the IPCC Report {.smaller}
+## Source material: What is the IPCC Report {.smaller}
 
 SW
 
 ---
 
-## Slide 4: Solution {.smaller}
+## Solution {.smaller}
 
 SW
 
@@ -40,7 +40,7 @@ SW
 
 ---
 
-## Slide 6: Scoping Data Source & Data Modeling  {.smaller}
+## Scoping Data Source & Data Modeling  {.smaller}
 
 SW
 
@@ -68,13 +68,13 @@ SW
 
 ---
 
-## Slide 9: Import Scrape Data  {.smaller}
+## Import Scrape Data  {.smaller}
 
 SW
 
 ---
 
-## Slide 10: Import Supporting Data  {.smaller}
+## Import Supporting Data  {.smaller}
 
 SW
 
@@ -100,18 +100,18 @@ SW
 
 ---
 
-## Slide 13: DevOps {.smaller}
+## DevOps {.smaller}
 
 SW
 
 ---
 
-## Slide 14:  Data Visualisation {.smaller}
+## Data Visualisation {.smaller}
 
 SW
 
 ---
 
-## Slide 15: Outlook & Goodbye {.smaller}
+## Outlook & Goodbye {.smaller}
 
 SW
