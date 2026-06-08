@@ -29,7 +29,34 @@ footer: "CC-BY-SA 4.0 License"
 
 ## Problem {.smaller}
 
-SW
+::::: columns
+::: {.column width="50%"}
+- **Headline issues:**
+  - Search and SEO limited
+  - Not easy to reuse
+  - Formats of Web CMS HTML and PDF not suitable for data science
+  - Referenced materials not interlinked - so only manual tracking to find a named data set, etc
+  - Parts not easily available - Methodology, Supplementary material
+  - No content versioning 
+
+:::
+
+::: {.column width="50%"}
+- **Examples:**
+  - Links only to top levels: Reports, Glossary website, Author listing website etc.
+  - Glossary terms have no links to reports
+  - Author lists have no link to chapters
+  - Figures listed on web pages with no DOIs
+  - Citations on websites and not research repositories
+  - Supporting materials with link rot
+     
+
+:::
+:::::
+
+::: aside
+Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Authors](https://apps.ipcc.ch/report/authors/); [Glossary](https://apps.ipcc.ch/glossary/); [Figures and Citations example WGIII](https://www.ipcc.ch/report/ar6/wg3/).
+:::
 
 ---
 
