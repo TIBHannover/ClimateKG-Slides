@@ -27,7 +27,7 @@ footer: "CC-BY-SA 4.0 License"
 \* Oldenbourg, Laura, and Simon Worthington. "IPCC AR6 Quantification Summary". Climate Knowledge Graph, November 4, 2025. [10.5281/zenodo.17521936](https://doi.org/10.5281/zenodo.17521936).
 :::
 
-## Problem: For the public to trust climate science it has as open {.smaller}
+## Problem: For the public to trust climate science it has at their fingertips {.smaller}
 
 ::::: columns
 ::: {.column width="50%"}
@@ -81,7 +81,7 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 - In-scope and out-of-scope: Only the main text for AR6 has been currently imported, also citatations and data sets have not been linked.
 - Data modelling:
   - Simple (KISS) approaches of Genome Bank and Protein Data Bank have been used to encourage community uptake.
-  - Method: Bottom up / Top Down / and map to schemas
+  - Method: Bottom up / Top down / and map to schemas
   - Lit review of Wikibase KGs consulted - [[Zotero collection]](https://www.zotero.org/groups/2437020/semanticclimate/collections/IXBQXNLH/tags/kg%20litreview%20must%20read/collection) 
 
 ::: aside
@@ -112,15 +112,52 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 ---
 
-## Import Scrape Data  {.smaller}
+## Import Scrape Data - Innovation that allows for Corpus text and data import {.smaller}
 
-SW
+This is the main innovation of the project - being able to semi-automatically webscrape a corpus and import text and images, and make a Linked Open Data corpus backbone as an Import to Wikibase and MediaWiki.
+
+Wikitext + CSV > XML > DTD > Python (WikibaseIntegrator) > Wikibase / MediaWiki
+
+Documentation: [wiki.kewl.org/projects:ckgscrape](https://wiki.kewl.org/projects:ckgscrape) 
+
+Code: Mercurial Clone `hg clone https://hg.kewl.org/pub/ckg_s2mw`
+
+Thank you to Darron M. Broad of Runstop for the software development work.
 
 ---
 
 ## Import Supporting Data  {.smaller}
 
-SW
+::::: columns
+::: {.column width="30%"}
+```{mermaid}
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#f0f0f0', 'primaryTextColor':'#000', 'primaryBorderColor':'#000', 'lineColor':'#666', 'fontSize':'18px'}, 'flowchart': {'nodeSpacing': 20, 'rankSpacing': 25, 'padding': 35, 'htmlLabels': true}}}%%
+flowchart TD
+    A[CSV] --> B[XML]
+    B --> C[DTD]
+    C --> D[Schemas]
+    D --> E[Python<br/>WikibaseIntegrator]
+    E --> F[Wikibase]
+    
+    style A min-width:150px
+    style B min-width:150px
+    style C min-width:150px
+    style D min-width:150px
+    style E min-width:250px
+    style F min-width:150px
+```
+:::
+
+::: {.column width="70%"}
+<img src="images/xml2.png" title="xml" alt="xml" width="80%"/>
+
+:::
+::::: 
+
+::: aside
+Data can be browsed as XML and XSLT transforms here: [ClimateKG Data](https://tibhannover.github.io/Climate-KG-data/xml-html-documentation.html) (See menu item: Data Documentation)   
+:::  
+
 
 ---
 
@@ -154,16 +191,65 @@ SW
 
 ## DevOps {.smaller}
 
-SW
+A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to TIB hosting shortly once initial development resolved.
+
+```
+DATABASE/CONTENT FLOW (via sync scripts):
+┌──────────────┐                    ┌──────────────┐
+│   LOCAL      │◄───pull-from-dev───│     DEV      │  DEV = DB source of truth
+│ (workstation)│                    │ (178...88)   │  Content edited here
+└──────┬───────┘                    └──────┬───────┘
+       │                                   │
+       │ sync-local-to-test                │ sync-dev-to-test
+       │ (staging from local)              │ (standard promotion)
+       │                                   │
+       ↓                                   ↓
+   ┌──────────────┐                  ┌──────────────┐
+   │    TEST      │──────────────────│    TEST      │
+   │ (46...24)    │  (same target)   │ (46...24)    │
+   └──────────────┘                  └──────┬───────┘
+                                            │
+                                            │ sync-dev-to-prod  (or sync-test-to-prod)
+                                            │
+                                            ↓
+                                       ┌──────────────┐
+                                       │    PROD      │  Public instance
+                                       │ (178...174)  │
+                                       └──────────────┘
+```
 
 ---
 
 ## Data Visualisation {.smaller}
 
-SW
+::::: columns
+::: {.column width="50%"}
+### Gender Equality
+<img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="100%"/>
+:::
 
----
+::: {.column width="50%"}
+### Data Dashboard
+<img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="100%"/>
+:::
+:::::
 
-## Outlook & Goodbye {.smaller}
+::: aside
+Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhannover.github.io/Climate-KG-data/](https://tibhannover.github.io/Climate-KG-data/)
+:::
 
-SW
+--- 
+
+## ClimateKG Next Steps {.smaller}
+
+### How is the KG to be used: 
+
+1. A resource for data science - use and contribute
+2. Citizen Science - Chapter annotation and enrichment 
+3. Distribute to commons (Wikidata)  
+
+### Goals:
+
+1. Corpus KG service - CPS
+2. Work with IPCC and climate community
+3. Become a KG repository for all climate literature
