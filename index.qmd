@@ -90,7 +90,7 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 ---
 
-## Data Retrieval {.smaller}
+## Data Retrieval 📥 {.smaller}
 
 <img src="images/scrape-system-image.png" title="workflow" alt="workflow" width="70%"/>
 
@@ -102,7 +102,7 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 ---
 
-## Collecting Supporting Data {.smaller}
+## Collecting Supporting Data 📥 {.smaller}
 
 <img src="images/supporting-data-image.png" title="workflow" alt="workflow" width="70%"/>
 
@@ -124,7 +124,7 @@ SW
 
 ---
 
-## Browsing the Corpus in MediaWiki {.smaller}
+## Browsing the Corpus in MediaWiki 🔎 {.smaller}
 
 <img src="images/browse-clean-list.jpg" title="workflow" alt="workflow" width="70%"/>
 
@@ -136,7 +136,7 @@ SW
 
 ---
 
-## Output Option: CSS Paged Media {.smaller}
+## Output Option: CSS Paged Media 📖 {.smaller}
 
 ::::: columns
 ::: {.column width="60%"}
