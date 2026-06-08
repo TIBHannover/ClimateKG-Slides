@@ -66,7 +66,7 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 
 ---
 
-## Overview of work packages {.smaller}
+## Overview of work packages 📦 {.smaller}
 ```{mermaid}
 %%| file: diagrams/workflow-overview.mmd
 ```
