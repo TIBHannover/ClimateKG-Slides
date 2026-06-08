@@ -123,10 +123,6 @@
       margin-right: 0; 
     }
   </style>
-  <meta name="mermaid-theme" content="default">
-  <script src="index_files/libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="index_files/libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="index_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -234,97 +230,15 @@ Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB –
 </div></aside></section>
 <section id="data-retrieval" class="slide level2 smaller center">
 <h2>Data Retrieval</h2>
-<div class="cell" data-reveal="true" data-file="diagrams/scrape-system.mmd" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">graph LR
-    subgraph IPCC Website
-       C[Chapter Source Urls]
-       C1[Text]
-       C2[Assets]
-       C3[Data]
-    end
-    D(["Scrape"])
-    L(["Clean"])
-    A(["Find/Extract images"])
-    B(["Collect information"])
-    E(["Convert"])
-    F["HTML files for each Chapter"]
-    G["Wikitext files"]
-    H[Import]
-    I[Assets]
-    K[HTML location, PDF location, doi, OpenAlex ID, licence etc.]
 
-    C --&gt; C1
-    C --&gt; C2
-    C --&gt; C3
-
-    C1 --&gt; |Scrape using WGET| D
-    D --&gt; L
-    L --&gt; F    
-    F --&gt;|Convert using Pandoc| E
-    E --&gt; G
-    G --&gt;|ready for| H
-
-    C2 --&gt; A
-    A --&gt; I
-    I --&gt;|ready for| H
-
-    C3 --&gt; B
-    B --&gt; K
-    K --&gt;|ready for| H  </pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>• Building a <strong>semi-automated scraping system</strong> from Web to MediaWiki/Wikibase</p>
+<img src="images/scrape-system.png" title="workflow" alt="workflow" width="70%" class="r-stretch"><p>• Building a <strong>semi-automated scraping system</strong> from Web to MediaWiki/Wikibase</p>
 <p>• Using the IPCC websites as a starting point, developing a method for scraping <strong>text</strong>, <strong>assets</strong>, and <strong>additional data</strong></p>
 <p>• Preparing the data for <strong>import into a MediaWiki/Wikibase instance</strong></p>
 </section>
 <section id="collecting-supporting-data" class="slide level2 smaller center">
 <h2>Collecting Supporting Data</h2>
-<div class="cell" data-reveal="true" data-file="diagrams/supporting-data.mmd" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TB
-    A((Report))
-    B((Chapter))
-    AB1(Bibliographic Data)
-    C((Contributor))
-    C1(Name)
-    C2(Role)
-    C3(Gender)
-    C4(Country)
-    C5(Affiliation)
-    D((Glossary))
-    D1(Term)
-    D2(Definition)
-    E((Acronyms))
-    E1(Acronym)
-    E2(Description)
 
-    C --&gt; C1
-    C --&gt; C2
-    C --&gt; C3
-    C --&gt; C4
-    C --&gt; C5
-    D --&gt; D1
-    D --&gt; D2
-    E --&gt; E1
-    E --&gt; E2
-    A --&gt; AB1
-    B --&gt; AB1</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>• <strong>Additional data</strong> from <strong>various sources</strong>, e.g.&nbsp;IPCC data repositories, CrossRef, etc.</p>
+<img src="images/supporting-data.png" title="workflow" alt="workflow" width="70%" class="r-stretch"><p>• <strong>Additional data</strong> from <strong>various sources</strong>, e.g.&nbsp;IPCC data repositories, CrossRef, etc.</p>
 <p>• Preparing the data for <strong>import into Wikibase</strong></p>
 </section>
 <section id="import-scrape-data" class="slide level2 smaller center">
@@ -346,32 +260,7 @@ Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB –
 <h2>Output Option: CSS Paged Media</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="cell" data-reveal="true" data-file="diagrams/typeset-output.mmd" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    A[MediaWiki]
-    B(API)
-    C[Output]
-    E[Other options, like Data dump or SPARQL query]
-    H[HTML]
-    I[CSS Paged Media]
-    J[Typesetting system]
-
-    A --&gt; E
-
-    A --&gt; B
-    B --&gt; H 
-    I --&gt; J 
-    H --&gt; J
-    J --&gt; C</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<p><img src="images/typeset-output.png" title="workflow" alt="workflow" width="70%"></p>
 </div><div class="column" style="width:50%;">
 <p><img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"></p>
 </div></div>
