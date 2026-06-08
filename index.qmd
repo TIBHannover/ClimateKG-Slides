@@ -55,11 +55,11 @@ SW
 %%| file: diagrams/scrape-system.mmd
 ```
 
-• Building a semi-automated scraping system from Web to MediaWiki/Wikibase
+• Building a **semi-automated scraping system** from Web to MediaWiki/Wikibase
 
-• Using the IPCC websites as a starting point, developing a method for scraping text, assets, and additional data
+• Using the IPCC websites as a starting point, developing a method for scraping **text**, **assets**, and **additional data**
 
-• Preparing the data for import into a MediaWiki/Wikibase instance
+• Preparing the data for **import into a MediaWiki/Wikibase instance**
 
 ---
 
@@ -68,9 +68,9 @@ SW
 ```{mermaid}
 %%| file: diagrams/supporting-data.mmd
 ```
-• Additional data from various sources, e.g. IPCC data repositories, CrossRef, etc.
+• **Additional data** from **various sources**, e.g. IPCC data repositories, CrossRef, etc.
 
-• Preparing the data for import into Wikibase
+• Preparing the data for **import into Wikibase**
 
 ---
 
@@ -90,11 +90,11 @@ SW
 
 <img src="images/browse-clean.jpg" title="workflow" alt="workflow" width="70%"/>
 
-• Cleaning the chapter content directly in MediaWiki
+• **Cleaning** the chapter content directly in MediaWiki
 
-• Adding glossary and acronym content to MediaWiki
+• **Adding glossary and acronym content** to MediaWiki
 
-• Building navigation and browsing templates for the corpus
+• Building **navigation and browsing templates** for the corpus
 
 ---
 
@@ -104,7 +104,7 @@ SW
 %%| file: diagrams/typeset-output.mmd
 ```
 
-• One possible output option is using CSS Paged Media to typeset the corpus content into a print-ready format
+• One possible **output option**: using **CSS Paged Media** to typeset the corpus content into a **print-ready format**
 
 ---
 
