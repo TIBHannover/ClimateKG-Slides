@@ -18,10 +18,7 @@ The goal is to be a resource for data scientists, for citizen science activities
 
 ## Source Material: What is the IPCC Report {.smaller}
 
-```{mermaid}
-%%| file: diagrams/workflow-overview.mmd
-```
-
+SW
 
 ## Problem {.smaller}
 
@@ -35,12 +32,14 @@ SW
 
 ---
 
-## Overview of Workflow {.smaller}
+## Overview of work packages {.smaller}
 ```{mermaid}
 %%| file: diagrams/workflow-overview.mmd
 ```
- - From **Siloed Data** to **FAIR Data**
- - **Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**
+
+• From **Siloed Data** to **FAIR Data**
+
+• **Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**
 
 ---
 
@@ -52,7 +51,9 @@ SW
 
 ## Data Retrieval {.smaller}
 
-<img src="images/scrape-system.png" title="workflow" alt="workflow" width="100%"/>
+```{mermaid}
+%%| file: diagrams/scrape-system.mmd
+```
 
 • Building a semi-automated scraping system from Web to MediaWiki/Wikibase
 
@@ -64,8 +65,9 @@ SW
 
 ## Collecting Supporting Data {.smaller}
 
-<img src="images/supporting-data.png" title="workflow" alt="workflow" width="100%"/>
-
+```{mermaid}
+%%| file: diagrams/supporting-data.mmd
+```
 • Additional data from various sources, e.g. IPCC data repositories, CrossRef, etc.
 
 • Preparing the data for import into Wikibase
@@ -98,7 +100,9 @@ SW
 
 ## Output Option: CSS Paged Media {.smaller}
 
-<img src="images/typeset-output.png" title="workflow" alt="workflow" width="50%"/>
+```{mermaid}
+%%| file: diagrams/typeset-output.mmd
+```
 
 • One possible output option is using CSS Paged Media to typeset the corpus content into a print-ready format
 

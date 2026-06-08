@@ -1,0 +1,36 @@
+graph LR
+    subgraph IPCC Website
+       C[Chapter Source Urls]
+       C1[Text]
+       C2[Assets]
+       C3[Data]
+    end
+    D(["Scrape"])
+    L(["Clean"])
+    A(["Find/Extract images"])
+    B(["Collect information"])
+    E(["Convert"])
+    F["HTML files for each Chapter"]
+    G["Wikitext files"]
+    H[Import]
+    I[Assets]
+    K[HTML location, PDF location, doi, OpenAlex ID, licence etc.]
+
+    C --> C1
+    C --> C2
+    C --> C3
+
+    C1 --> |Scrape using WGET| D
+    D --> L
+    L --> F    
+    F -->|Pandoc| E
+    E --> G
+    G -->|ready for| H
+
+    C2 --> A
+    A --> I
+    I -->|ready for| H
+
+    C3 --> B
+    B --> K
+    K -->|ready for| H  
