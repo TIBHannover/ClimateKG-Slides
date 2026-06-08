@@ -68,7 +68,7 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 
 ## Overview of work packages 📦 {.smaller}
 
-<img src="images/workflow-overview.png" title="workflow" alt="workflow" width="70%"/>
+<img src="images/workflow-overview-image.png" title="workflow" alt="workflow" width="70%"/>
 
 - From **Siloed Data** to **FAIR Data**
 
@@ -92,8 +92,7 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 ## Data Retrieval {.smaller}
 
-<img src="images/scrape-system.png" title="workflow" alt="workflow" width="70%"/>
-
+<img src="images/scrape-system-image.png" title="workflow" alt="workflow" width="70%"/>
 
 • Building a **semi-automated scraping system** from Web to MediaWiki/Wikibase
 
@@ -105,7 +104,7 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 ## Collecting Supporting Data {.smaller}
 
-<img src="images/supporting-data.png" title="workflow" alt="workflow" width="70%"/>
+<img src="images/supporting-data-image.png" title="workflow" alt="workflow" width="70%"/>
 
 • **Additional data** from **various sources**, e.g. IPCC data repositories, CrossRef, etc.
 
@@ -140,11 +139,11 @@ SW
 ## Output Option: CSS Paged Media {.smaller}
 
 ::::: columns
-::: {.column width="50%"}
-<img src="images/typeset-output.png" title="workflow" alt="workflow" width="70%"/>
+::: {.column width="60%"}
+<img src="images/typeset-output-image.png" title="workflow" alt="workflow" width="70%"/>
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 <img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/>
 :::
 :::::
