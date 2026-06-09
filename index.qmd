@@ -44,28 +44,28 @@ Transform PDF and web corpus, and web databases into a knowledge graph with:
 :::
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 20px; margin-top: 20px;"}
-::: {style="grid-column: 1; grid-row: 1;"}
+::: {style="grid-column: 1; grid-row: 1; text-align: center;"}
 <!-- Cell 1,1 - Add content here --> [Full text](https://prod-climatekg.semanticclimate.org/wiki/IPCC:AR6) & [publishing](https://vivliostyle.vercel.app/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/chapter.json&style=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/css-neutral/styles.css) 
 <img src="images/paged-media.png" title="Paged Media" alt="Paged Medias" style="max-width: 150px; width: 100%;"/> 
 :::
 
-::: {style="grid-column: 2; grid-row: 1;"}
+::: {style="grid-column: 2; grid-row: 1; text-align: center;"}
 <!-- Cell 1,2 - Add content here -->Metadata
 :::
 
-::: {style="grid-column: 3; grid-row: 1;"}
+::: {style="grid-column: 3; grid-row: 1; text-align: center;"}
 <!-- Cell 1,3 - Add content here -->API / SPARQL Endpoint
 :::
 
-::: {style="grid-column: 1; grid-row: 2;"}
+::: {style="grid-column: 1; grid-row: 2; text-align: center;"}
 <!-- Cell 2,1 - Add content here -->Data dump
 :::
 
-::: {style="grid-column: 2; grid-row: 2;"}
+::: {style="grid-column: 2; grid-row: 2; text-align: center;"}
 <!-- Cell 2,2 - Add content here -->Schemas / Ontologies: Datacite, OpenAlex, BFO, etc
 :::
 
-::: {style="grid-column: 3; grid-row: 2;"}
+::: {style="grid-column: 3; grid-row: 2; text-align: center;"}
 <!-- Cell 2,3 - Add content here -->Data workbench: JupyterLab / Quarto
 :::
 :::  
