@@ -5,14 +5,13 @@ graph LR
        C2[Assets]
        C3[Data]
     end
-    D(["Scrape"])
-    L(["Clean"])
+    D(["Scrape / clean"])
     A(["Find/Extract images"])
     B(["Collect information"])
-    E(["Convert"])
-    F["HTML files for each Chapter"]
+    E(["Convert / clean"])
+    F["HTML files"]
     G["Wikitext files"]
-    H[Import]
+    H[Ready for Import]
     I[Assets]
     K[HTML location, PDF location, doi, OpenAlex ID, licence etc.]
 
@@ -20,17 +19,16 @@ graph LR
     C --> C2
     C --> C3
 
-    C1 --> |Scrape using WGET| D
-    D --> L
-    L --> F    
-    F -->|Convert using Pandoc| E
+    C1 --> |WGET| D
+    D --> F    
+    F -->|Pandoc| E
     E --> G
-    G -->|ready for| H
+    G --> H
 
     C2 --> A
     A --> I
-    I -->|ready for| H
+    I --> H
 
     C3 --> B
     B --> K
-    K -->|ready for| H  
+    K --> H  

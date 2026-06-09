@@ -50,11 +50,16 @@ Transform PDF and web corpus, and web databases into a knowledge graph with:
 :::
 
 ::: {style="grid-column: 2; grid-row: 1; text-align: center;"}
-<!-- Cell 1,2 - Add content here -->Metadata
+<!-- Cell 1,2 - Add content here -->[Metadata](https://prod-climatekg.semanticclimate.org/wiki/Item:Q106)
+
+<img src="images/metadata.jpg" title="Metadata" alt="Metadata" style="max-width: 150px; width: 100%;"/> 
 :::
 
 ::: {style="grid-column: 3; grid-row: 1; text-align: center;"}
-<!-- Cell 1,3 - Add content here -->API / SPARQL Endpoint
+<!-- Cell 1,3 - Add content here -->[API](https://prod-climatekg.semanticclimate.org/api.php) / [SPARQL Endpoint](https://prod-climatekg.semanticclimate.org/query/#%23defaultView%3AGraph%0ASELECT%20%3Fchapter%20%3FchapterLabel%20%3Frelated%20%3FrelatedLabel%0AWHERE%20%7B%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP3%3E%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fentity%2FQ110%3E%20.%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP12%3E%20%3Frelated%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D)
+
+<img src="images/sparql.jpg" title="SPARQL Endpoint" alt="SPARQL Endpoint" style="max-width: 150px; width: 100%;"/> 
+
 :::
 
 ::: {style="grid-column: 1; grid-row: 2; text-align: center;"}
@@ -116,8 +121,7 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 <img src="images/workflow-overview-image.png" title="workflow" alt="workflow" width="70%"/>
 
 - From **Siloed Data** to **FAIR Data**
-
-- **Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**
+- **Finding** the sources → **retrieving** the data → **storing** it → preparing different ways of **outputting** and **visualizing** it and **making data available for reuse**
 
 ---
 
@@ -139,21 +143,18 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 <img src="images/scrape-system-image.png" title="workflow" alt="workflow" width="70%"/>
 
-• Building a **semi-automated scraping system** from Web to MediaWiki/Wikibase
-
-• Using the IPCC websites as a starting point, developing a method for scraping **text**, **assets**, and **additional data**
-
-• Preparing the data for **import into a MediaWiki/Wikibase instance**
+- Building a **semi-automated scraping system** from Web to MediaWiki/Wikibase
+- Using the IPCC websites as a starting point, developing a method for scraping **text**, **assets**, and **additional data**
+- Preparing the data for **import into a MediaWiki/Wikibase instance**
 
 ---
 
-## Collecting Supporting Data 📥 {.smaller}
+## Collecting Supporting Data 🧩 {.smaller}
 
 <img src="images/supporting-data-image.png" title="workflow" alt="workflow" width="70%"/>
 
-• **Additional data** from **various sources**, e.g. IPCC data repositories, CrossRef, etc.
-
-• Preparing the data for **import into Wikibase**
+- **Additional data** from **various sources**, e.g. IPCC data repositories, CrossRef, etc.
+- Preparing the supporting data for **import into Wikibase**
 
 ---
 
@@ -208,13 +209,11 @@ Data can be browsed as XML and XSLT transforms here: [ClimateKG Data](https://ti
 
 ## Browsing the Corpus in MediaWiki 🔎 {.smaller}
 
-<img src="images/browse-clean-list.jpg" title="workflow" alt="workflow" width="70%"/>
+<img src="images/browse-clean-list.png" title="MediaWiki" alt="MediaWiki screens" width="90%"/>
 
-• **Cleaning** the chapter content directly in MediaWiki
-
-• **Adding glossary and acronym content** to MediaWiki
-
-• Building **navigation and browsing templates** for the corpus
+- **Cleaning** the chapter content directly in MediaWiki
+- Building **navigation and browsing templates** for the corpus
+- Adding **glossary** and **acronym** content to MediaWiki
 
 ---
 
@@ -271,19 +270,13 @@ Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhanno
 
 ---
 
-## Output Option: CSS Paged Media 📖 {.smaller}
+## CSS Paged Media as Output 📖 {.smaller}
 
-::::: columns
-::: {.column width="60%"}
-<img src="images/typeset-output-image.png" title="workflow" alt="workflow" width="70%"/>
-:::
+<img src="images/paged-media.png" title="paged media" alt="paged media" width="80%"/>
 
-::: {.column width="40%"}
-<img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/>
-:::
-:::::
+Possible **output option**:
 
-• One possible **output option**: using **CSS Paged Media** to typeset the corpus content into a **print-ready format**
+- Using **CSS Paged Media** to typeset the corpus content into **multi-format** output
 
 --- 
 
@@ -293,7 +286,7 @@ Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhanno
 
 - A resource for data science — to use and contribute
 - Citizen science activities — Chapter annotation and enrichment 
--  Distribute to commons (Wikidata)  
+- Distribute to commons (Wikidata)  
 
 ### Goals:
 
