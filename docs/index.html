@@ -333,7 +333,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">ClimateKG — Surfacing&nbsp;Knowledge</h1>
-  <p class="subtitle">A community knowledge graph: Based on FAIR&nbsp;Data &amp; Open&nbsp;Science Principles</p>
+  <p class="subtitle">A community knowledge graph: <br>Based on FAIR&nbsp;Data &amp; UNESCO Open&nbsp;Science Principles</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -347,16 +347,27 @@ Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB –
 </section>
 <section id="about-climatekg" class="slide level2 smaller center">
 <h2>About ClimateKG</h2>
-
-<img src="images/reports.jpg" title="IPCC Reports" alt="IPCC Reports" width="100%" class="r-stretch"><ul>
-<li>Climate Knowledge Graph (ClimateKG) is a yearlong R&amp;D project to create a knowledge graph of the IPCC Sixth Assement Report (AR6). The project has been funded by TIB Innovation Fund and is made in cooperation with #semanticClimate community (India, Germany, UK, and more).<br>
+<ul>
+<li>Climate Knowledge Graph (ClimateKG) is a yearlong R&amp;D project to create a knowledge&nbsp;graph of the <em>IPCC Sixth Assement Report (AR6)</em>.<br>
 </li>
 <li>The ClimateKG knowledge graph is built using Wikibase and MediaWiki.</li>
-<li>The goal is to be a resource for data scientists, for citizen science activities, and to distribute data to Wikidata.</li>
+<li>The goal is to be a resource for:
+<ul>
+<li>data science use, for</li>
+<li>citizen science activities, and to</li>
+<li>distribute climate science metadata to Wikidata.</li>
+</ul></li>
 </ul>
+<p>The project has been funded by <strong>TIB Innovation Fund</strong> and is made in cooperation with #semanticClimate community (India, Germany, UK, +).</p>
+<div style="text-align: center; margin-top: 20px;">
+<p><img src="images/tib-logo.png" title="TIB Logo" alt="TIB Logo" width="220"></p>
+</div>
 </section>
 <section id="source-material-what-is-the-ipcc-report" class="slide level2 smaller center">
 <h2>Source Material: What is the IPCC Report?</h2>
+<div style="text-align: center;">
+<p><img src="images/reports.jpg" title="IPCC Reports" alt="IPCC Reports" style="max-width: 400px; width: 100%;"></p>
+</div>
 <blockquote>
 <p>It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. - <a href="https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable">UN Secretary-General António Guterres</a> (2023)</p>
 </blockquote>
@@ -368,6 +379,38 @@ Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB –
 <aside><div>
 <p>* Oldenbourg, Laura, and Simon Worthington. “IPCC AR6 Quantification Summary”. Climate Knowledge Graph, November 4, 2025. <a href="https://doi.org/10.5281/zenodo.17521936">10.5281/zenodo.17521936</a>.</p>
 </div></aside></section>
+<section id="climatekg-project-deliverables" class="slide level2 smaller center">
+<h2>ClimateKG Project Deliverables</h2>
+<div style="text-align: center;">
+<p>Transform PDF and web corpus, and web databases into a knowledge graph with:</p>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 20px; margin-top: 20px;">
+<div style="grid-column: 1; grid-row: 1;">
+<!-- Cell 1,1 - Add content here -->
+<p><a href="https://prod-climatekg.semanticclimate.org/wiki/IPCC:AR6">Full text</a> &amp; <a href="https://vivliostyle.vercel.app/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/chapter.json&amp;style=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/css-neutral/styles.css">publishing</a> <img src="images/paged-media.png" title="Paged Media" alt="Paged Medias" style="max-width: 150px; width: 100%;"></p>
+</div>
+<div style="grid-column: 2; grid-row: 1;">
+<!-- Cell 1,2 - Add content here -->
+<p>Metadata</p>
+</div>
+<div style="grid-column: 3; grid-row: 1;">
+<!-- Cell 1,3 - Add content here -->
+<p>API / SPARQL Endpoint</p>
+</div>
+<div style="grid-column: 1; grid-row: 2;">
+<!-- Cell 2,1 - Add content here -->
+<p>Data dump</p>
+</div>
+<div style="grid-column: 2; grid-row: 2;">
+<!-- Cell 2,2 - Add content here -->
+<p>Schemas / Ontologies: Datacite, OpenAlex, BFO, etc</p>
+</div>
+<div style="grid-column: 3; grid-row: 2;">
+<!-- Cell 2,3 - Add content here -->
+<p>Data workbench: JupyterLab / Quarto</p>
+</div>
+</div>
+</section>
 <section id="problem-for-the-public-to-trust-climate-science-it-has-at-their-fingertips" class="slide level2 smaller center">
 <h2>Problem: For the public to trust climate science it has at their fingertips</h2>
 <div class="columns">
@@ -531,41 +574,45 @@ flowchart TD
                                        │ (178...174)  │
                                        └──────────────┘</code></pre>
 </section>
-<section id="data-visualisation" class="slide level2 smaller center">
-<h2>Data Visualisation</h2>
+<section id="data-analysis-visualisation" class="slide level2 smaller center">
+<h2>Data Analysis &amp; Visualisation</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="gender-equality">Gender Equality</h3>
-<p><img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="100%"></p>
+<p><img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"> <img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"></p>
 </div><div class="column" style="width:50%;">
 <h3 id="data-dashboard">Data Dashboard</h3>
-<p><img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="100%"></p>
+<p><img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"> <img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"></p>
 </div></div>
 
 <aside><div>
 <p>Generated direct from Wikibase KG using Python, Notebooks, and Quarto: <a href="https://tibhannover.github.io/Climate-KG-data/">tibhannover.github.io/Climate-KG-data/</a></p>
 </div></aside></section>
 <section id="climatekg-next-steps" class="slide level2 smaller center">
-<h2>ClimateKG Next Steps</h2>
-<h3 id="how-is-the-to-be-used">How is the to be used:</h3>
-<ol type="1">
-<li>A resource for data science - use and contribute</li>
-<li>Citizen Science - Chapter annotation and enrichment</li>
+<h2>ClimateKG Next Steps 🚀</h2>
+<h3 id="planned-use">Planned use:</h3>
+<ul>
+<li>A resource for data science — to use and contribute</li>
+<li>Citizen science activities — Chapter annotation and enrichment</li>
 <li>Distribute to commons (Wikidata)</li>
-</ol>
+</ul>
 <h3 id="goals">Goals:</h3>
-<ol type="1">
-<li>Corpus KG service - CPS</li>
+<ul>
+<li>Corpus KG service — Computation Publishing Service (CPS)</li>
 <li>Work with IPCC and climate community</li>
-<li>Become a KG repository for all climate literature</li>
-</ol>
+<li>Become a KG repository for <em>all</em> climate literature</li>
+</ul>
+<p><em>Thank you! Simon Worthington, Laura Oldenbourg, and team #semanticClimate — June ’26</em></p>
+
 <div class="quarto-auto-generated-content">
 <p><img src="images/tib-logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>CC-BY-SA 4.0 License</p>
 </div>
 </div>
-</section>
+<aside><div>
+<p>Main &lt;/&gt; repo: <a href="https://github.com/TIBHannover/climate-knowledge-graph">github.com/TIBHannover/climate-knowledge-graph</a></p>
+</div></aside></section>
     </div>
   </div>
 

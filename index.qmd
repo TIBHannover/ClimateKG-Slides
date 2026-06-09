@@ -1,6 +1,6 @@
 ---
 title: "ClimateKG — Surfacing&nbsp;Knowledge"
-subtitle: "A community knowledge graph: Based on FAIR&nbsp;Data & Open&nbsp;Science Principles"
+subtitle: "A community knowledge graph: <br/>Based on FAIR&nbsp;Data & UNESCO Open&nbsp;Science Principles"
 author: "Simon Worthington & Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB – Leibniz Information Centre for Science and Technology"
 date: 2026-06-10
 footer: "CC-BY-SA 4.0 License"
@@ -8,15 +8,25 @@ footer: "CC-BY-SA 4.0 License"
 
 ## About ClimateKG {.smaller}
 
-<img src="images/reports.jpg" title="IPCC Reports" alt="IPCC Reports" width="100%"/>
-
-- Climate Knowledge Graph (ClimateKG) is a yearlong R&D project to create a knowledge graph of the IPCC Sixth Assement Report (AR6). The project has been funded by TIB Innovation Fund and is made in cooperation with #semanticClimate community (India, Germany, UK, and more).   
+- Climate Knowledge Graph (ClimateKG) is a yearlong R&D project to create a knowledge&nbsp;graph of the *IPCC Sixth Assement Report (AR6)*.   
 - The ClimateKG knowledge graph is built using Wikibase and MediaWiki. 
-- The goal is to be a resource for data scientists, for citizen science activities, and to distribute data to Wikidata.
+- The goal is to be a resource for: 
+  - data science use, for 
+  - citizen science activities, and to 
+  - distribute climate science metadata to Wikidata.
+
+The project has been funded by **TIB Innovation Fund** and is made in cooperation with #semanticClimate community (India, Germany, UK, +).     
+
+::: {style="text-align: center; margin-top: 20px;"}
+<img src="images/tib-logo.png" title="TIB Logo" alt="TIB Logo" width="220"/>
+:::
 
 ---
 
 ## Source Material: What is the IPCC Report? {.smaller}
+::: {style="text-align: center;"}
+<img src="images/reports.jpg" title="IPCC Reports" alt="IPCC Reports" style="max-width: 400px; width: 100%;"/> 
+:::
 
 > It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
 
@@ -26,6 +36,41 @@ footer: "CC-BY-SA 4.0 License"
 ::: aside
 \* Oldenbourg, Laura, and Simon Worthington. "IPCC AR6 Quantification Summary". Climate Knowledge Graph, November 4, 2025. [10.5281/zenodo.17521936](https://doi.org/10.5281/zenodo.17521936).
 :::
+
+## ClimateKG Project Deliverables{.smaller}
+
+::: {style="text-align: center;"}
+Transform PDF and web corpus, and web databases into a knowledge graph with:
+:::
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 20px; margin-top: 20px;"}
+::: {style="grid-column: 1; grid-row: 1;"}
+<!-- Cell 1,1 - Add content here --> [Full text](https://prod-climatekg.semanticclimate.org/wiki/IPCC:AR6) & [publishing](https://vivliostyle.vercel.app/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/chapter.json&style=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/css-neutral/styles.css) 
+<img src="images/paged-media.png" title="Paged Media" alt="Paged Medias" style="max-width: 150px; width: 100%;"/> 
+:::
+
+::: {style="grid-column: 2; grid-row: 1;"}
+<!-- Cell 1,2 - Add content here -->Metadata
+:::
+
+::: {style="grid-column: 3; grid-row: 1;"}
+<!-- Cell 1,3 - Add content here -->API / SPARQL Endpoint
+:::
+
+::: {style="grid-column: 1; grid-row: 2;"}
+<!-- Cell 2,1 - Add content here -->Data dump
+:::
+
+::: {style="grid-column: 2; grid-row: 2;"}
+<!-- Cell 2,2 - Add content here -->Schemas / Ontologies: Datacite, OpenAlex, BFO, etc
+:::
+
+::: {style="grid-column: 3; grid-row: 2;"}
+<!-- Cell 2,3 - Add content here -->Data workbench: JupyterLab / Quarto
+:::
+:::  
+
+---
 
 ## Problem: For the public to trust climate science it has at their fingertips {.smaller}
 
@@ -220,17 +265,19 @@ DATABASE/CONTENT FLOW (via sync scripts):
 
 ---
 
-## Data Visualisation {.smaller}
+## Data Analysis & Visualisation {.smaller}
 
 ::::: columns
 ::: {.column width="50%"}
 ### Gender Equality
-<img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="100%"/>
+<img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/>
+<img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/>
 :::
 
 ::: {.column width="50%"}
 ### Data Dashboard
-<img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="100%"/>
+<img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/>
+<img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/>
 :::
 :::::
 
@@ -240,16 +287,22 @@ Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhanno
 
 --- 
 
-## ClimateKG Next Steps {.smaller}
+## ClimateKG Next Steps 🚀 {.smaller}
 
-### How is the KG to be used: 
+### Planned use: 
 
-1. A resource for data science - use and contribute
-2. Citizen Science - Chapter annotation and enrichment 
-3. Distribute to commons (Wikidata)  
+- A resource for data science — to use and contribute
+- Citizen science activities — Chapter annotation and enrichment 
+-  Distribute to commons (Wikidata)  
 
 ### Goals:
 
-1. Corpus KG service - CPS
-2. Work with IPCC and climate community
-3. Become a KG repository for all climate literature
+- Corpus KG service — Computation Publishing Service (CPS)
+- Work with IPCC and climate community
+- Become a KG repository for *all* climate literature
+
+*Thank you! Simon Worthington, Laura Oldenbourg, and team #semanticClimate — June '26* 
+
+::: aside
+Main </> repo: [github.com/TIBHannover/climate-knowledge-graph](https://github.com/TIBHannover/climate-knowledge-graph)
+:::
