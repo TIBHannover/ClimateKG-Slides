@@ -208,7 +208,7 @@ Data can be browsed as XML and XSLT transforms here: [ClimateKG Data](https://ti
 
 ## Browsing the Corpus in MediaWiki 🔎 {.smaller}
 
-<img src="images/browse-clean-list.jpg" title="workflow" alt="workflow" width="70%"/>
+<img src="images/browse-clean-list.png" title="MediaWiki" alt="MediaWiki screens" width="90%"/>
 
 • **Cleaning** the chapter content directly in MediaWiki
 
@@ -273,17 +273,11 @@ Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhanno
 
 ## Output Option: CSS Paged Media 📖 {.smaller}
 
-::::: columns
-::: {.column width="60%"}
-<img src="images/typeset-output-image.png" title="workflow" alt="workflow" width="70%"/>
-:::
+<img src="images/paged-media.png" title="paged media" alt="paged media" width="80%"/>
 
-::: {.column width="40%"}
-<img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/>
-:::
-:::::
+Possible **output option**:
 
-• One possible **output option**: using **CSS Paged Media** to typeset the corpus content into a **print-ready format**
+• Using **CSS Paged Media** to typeset the corpus content into **multi-format** output
 
 --- 
 
