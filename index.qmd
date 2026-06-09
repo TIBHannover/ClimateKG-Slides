@@ -218,22 +218,6 @@ Data can be browsed as XML and XSLT transforms here: [ClimateKG Data](https://ti
 
 ---
 
-## Output Option: CSS Paged Media 📖 {.smaller}
-
-::::: columns
-::: {.column width="60%"}
-<img src="images/typeset-output-image.png" title="workflow" alt="workflow" width="70%"/>
-:::
-
-::: {.column width="40%"}
-<img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/>
-:::
-:::::
-
-• One possible **output option**: using **CSS Paged Media** to typeset the corpus content into a **print-ready format**
-
----
-
 ## DevOps {.smaller}
 
 A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to TIB hosting shortly once initial development resolved.
@@ -284,6 +268,22 @@ DATABASE/CONTENT FLOW (via sync scripts):
 ::: aside
 Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhannover.github.io/Climate-KG-data/](https://tibhannover.github.io/Climate-KG-data/)
 :::
+
+---
+
+## Output Option: CSS Paged Media 📖 {.smaller}
+
+::::: columns
+::: {.column width="60%"}
+<img src="images/typeset-output-image.png" title="workflow" alt="workflow" width="70%"/>
+:::
+
+::: {.column width="40%"}
+<img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/>
+:::
+:::::
+
+• One possible **output option**: using **CSS Paged Media** to typeset the corpus content into a **print-ready format**
 
 --- 
 
