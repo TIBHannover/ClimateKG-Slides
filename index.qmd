@@ -118,7 +118,7 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 
 ## Overview of work packages 📦 {.smaller}
 
-<img src="images/workflow-overview-image.png" title="workflow" alt="workflow" width="70%"/>
+<img src="images/workflow-overview-drawio.png" title="workflow" alt="workflow" width="70%"/>
 
 - From **Siloed Data** to **FAIR Data**
 - **Finding** the sources → **retrieving** the data → **storing** it → preparing different ways of **outputting** and **visualizing** it and **making data available for reuse**
@@ -141,7 +141,7 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 ## Data Retrieval 📥 {.smaller}
 
-<img src="images/scrape-system-image.png" title="workflow" alt="workflow" width="70%"/>
+<img src="images/scrape-system-drawio.png" title="workflow" alt="workflow" width="70%"/>
 
 - Building a **semi-automated scraping system** from Web to MediaWiki/Wikibase
 - Using the IPCC websites as a starting point, developing a method for scraping **text**, **assets**, and **additional data**
@@ -151,7 +151,7 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 ## Collecting Supporting Data 🧩 {.smaller}
 
-<img src="images/supporting-data-image.png" title="workflow" alt="workflow" width="70%"/>
+<img src="images/supporting-data-drawio.png" title="workflow" alt="workflow" width="70%"/>
 
 - **Additional data** from **various sources**, e.g. IPCC data repositories, CrossRef, etc.
 - Preparing the supporting data for **import into Wikibase**
@@ -176,9 +176,7 @@ Thank you to Darron M. Broad of Runstop for the software development work.
 
 ::::: columns
 ::: {.column width="30%"}
-```{mermaid}
-%%| file: diagrams/import-supporting-data.mmd
-```
+<img src="images/import-supporting-data-drawio.png" title="workflow" alt="workflow" width="70%"/>
 :::
 
 ::: {.column width="70%"}
