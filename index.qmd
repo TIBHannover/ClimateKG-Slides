@@ -195,7 +195,7 @@ Thank you to Darron M. Broad of Runstop for the software development work.
 ::::: 
 
 ::: aside
-Data can be browsed as XML and XSLT transforms here: [ClimateKG Data](https://tibhannover.github.io/Climate-KG-data/xml-html-documentation.html) (See menu item: Data Documentation)   
+Data output as HTML using XSLT from XML: [Corpus](https://tibhannover.github.io/Climate-KG-data/data/corpus-ar6.html) | [Bibliography](https://tibhannover.github.io/Climate-KG-data/data/bibliographic-ar6.html) | [Authors](https://tibhannover.github.io/Climate-KG-data/data/authors-ar6.html) | [Glossary](https://tibhannover.github.io/Climate-KG-data/data/glossary-ar6.html) | [Acronyms](https://tibhannover.github.io/Climate-KG-data/data/acronyms-ar6.html) | [ClimateKG Data XML how-to](https://tibhannover.github.io/Climate-KG-data/xml-html-documentation.html)  
 :::  
 
 
@@ -245,18 +245,18 @@ A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticC
 ::::: columns
 ::: {.column width="50%"}
 #### [Gender Equality](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/ar6-authors-distribution-analysis.html) 
-<img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/>
+<img src="images/newplot.png" title="distribution" alt="distribution" width="50%"/>
 
-#### Climate Search
-<img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/>
+#### [Buildings & Urban Environment](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/buildings-urban-chapters.html)
+<img src="images/build.png" title="Buildings & Urban Environment" alt="Buildings & Urban Environment" width="50%"/>
 :::
 
 ::: {.column width="50%"}
-#### [Data Dashboard](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/wikibase-inventory-dashboard.html) 
-<img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/>
+#### [Data Dashboard](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/kg-stats-dashboard.html) 
+<img src="images/dash.png" title="Dashboard" alt="Dashboard" width="50%"/>
 
-#### Author contributions
-<img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/>
+#### [Authors Top 10 Global South](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/authors-top-ten.html)
+<img src="images/authors.png" title="Dashboard" alt="Dashboard" width="50%"/>
 :::
 :::::
 
@@ -270,7 +270,7 @@ Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhanno
 
 <img src="images/paged-media.png" title="paged media" alt="paged media" width="80%"/>
 
-Possible **output option**:
+Possible **output option** [Example chapter](https://vivliostyle.vercel.app/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/chapter.json&style=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/css-neutral/styles.css):
 
 - Using **CSS Paged Media** to typeset the corpus content into **multi-format** output
 
