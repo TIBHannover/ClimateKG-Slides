@@ -23,12 +23,12 @@ The project has been funded by **TIB Innovation Fund** and is made in cooperatio
 
 ---
 
-## Source Material: What is the IPCC Report? {.smaller}
+## What are the IPCC Reports? {.smaller}
 ::: {style="text-align: center;"}
-<img src="images/reports.jpg" title="IPCC Reports" alt="IPCC Reports" style="max-width: 400px; width: 100%;"/> 
-:::
+<img src="images/reports.jpg" title="IPCC Reports" alt="IPCC Reports" style="max-width: 600px; width: 100%;"/> 
+::: 
 
-> It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
+> It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. <br/> - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
 
 - A multilateral panel of 195 nations that reviews the global scientific literature to map out climate scenarios for the next 100 years combining science, policy, and politics.
 - AR6 ( $\approx$ 5-8 year cycle since 1988): 932 authors; 7 Reports; >8 million words; 10,047 pages; 48,400 citations; 66,834 data sets; 2,136 images; 1,910 Acronyms; 920 Glossary items; 5 languages+ (partial).* 
@@ -63,21 +63,30 @@ Transform PDF & web corpus, and web databases into a knowledge graph with a reus
 :::
 
 ::: {style="grid-column: 1; grid-row: 2; text-align: center;"}
-<!-- Cell 2,1 - Add content here -->Data dump
+<!-- Cell 2,1 - Add content here -->Claude & LLMs IDE integration  
+
+<img src="images/chat.png" title="Claude & LLMs IDE integration" alt="Claude & LLMs IDE integration" style="max-width: 130px; width: 100%;"/> 
+
 :::
 
 ::: {style="grid-column: 2; grid-row: 2; text-align: center;"}
-<!-- Cell 2,2 - Add content here -->Schemas / Ontologies: Datacite, OpenAlex, BFO, etc
+<!-- Cell 2,2 - Add content here -->Schemas / Ontologies: DataCite, OpenAlex, Basic Formal Ontology (BFO), etc
+
+<img src="images/schema.png" title="Schemas / Ontologies" alt="Schemas / Ontologies" style="max-width: 120px; width: 100%;"/> 
+
 :::
 
 ::: {style="grid-column: 3; grid-row: 2; text-align: center;"}
-<!-- Cell 2,3 - Add content here -->Data workbench: JupyterLab / Quarto
+<!-- Cell 2,3 - Add content here -->Data workbench: [JupyterLab / Quarto](https://tibhannover.github.io/Climate-KG-data/)
+
+<img src="images/quarto.jpg" title="Data workbench" alt="Data workbench" style="max-width: 140px; width: 100%;"/> 
+
 :::
 :::  
 
 ---
 
-## Problem: For the public to trust climate science it has at their fingertips {.smaller}
+## Problem: Public Trust in Climate Science Requires It's at Their Fingertips! {.smaller style="font-size: 0.7em;"}
 
 ::::: columns
 ::: {.column width="50%"}
@@ -85,14 +94,14 @@ Transform PDF & web corpus, and web databases into a knowledge graph with a reus
   - Search and SEO limited
   - Not easy to reuse
   - Formats of Web CMS HTML and PDF not suitable for data science
-  - Referenced materials not interlinked - so only manual tracking to find a named data set, etc
-  - Parts not easily available - Methodology, Supplementary material
+  - Referenced materials not interlinked — only manual tracking possible
+  - Parts not easily available — Methodology, Supplementary material, etc
 
 :::
 
 ::: {.column width="50%"}
 - **Examples:**
-  - Links only to top levels: Reports, Glossary website, Author listing website etc.
+  - Links only to top levels: Reports, Glossary or Author websites, etc.
   - Glossary terms have no links to reports
   - Author lists have no link to chapters
   - Figures listed on web pages with no DOIs
@@ -107,9 +116,9 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 
 ---
 
-## Solution: Apply the vision of the Semantic Web 🕸️ 
+## Solution: Apply the *<u>vision</u>* of the Semantic Web 
 
-> Link all of the parts and make machine readable — AKA a Knowledge Graph 
+> <span style="color: red; font-size: 1.5em;">🕸️</span> Link all of the parts and make machine readable <br/>— AKA a Knowledge Graph 
 
 - **Linked Data**: Interlinked data with unique identifiers and standard formats
 - **FAIR Data**: Findable, Accessible, Interoperable, and Reusable
@@ -127,11 +136,11 @@ Example IPCC sites: [Reports](https://www.ipcc.ch/assessment-report/ar6/); [Auth
 
 ## Scoping Data Sources & Data Modeling  {.smaller}
 
-- In-scope and out-of-scope: Only the main text for AR6 has been currently imported, also citatations and data sets have not been linked.
+- In-scope and out-of-scope: Only the **main text** (excluding front matter and back matter) for AR6 has currently been imported, **citations** and **data sets** have not been linked.
 - Data modelling:
-  - Simple (KISS) approaches of Genome Bank and Protein Data Bank have been used to encourage community uptake.
+  - Simple (KISS) approaches of [Protein Data Bank](https://www.rcsb.org/) (1970s) and [GeneBank](https://www.ncbi.nlm.nih.gov/genbank/) (1990s) have been used to encourage community uptake.
   - Method: Bottom up / Top down / and map to schemas
-  - Lit review of Wikibase KGs consulted - [[Zotero collection]](https://www.zotero.org/groups/2437020/semanticclimate/collections/IXBQXNLH/tags/kg%20litreview%20must%20read/collection) 
+  - Lit review of Wikibase KGs consulted - [Zotero collection](https://www.zotero.org/groups/2437020/semanticclimate/collections/IXBQXNLH/tags/kg%20litreview%20must%20read/collection) 
 
 ::: aside
 Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Enslave Modular Ontology Modeling (MOMo); RaiseWikibase; Linking Historical Corpus Data and Annotations Using Wikibase (1737 Basque manuscript).    
@@ -153,20 +162,20 @@ Wikibase KG literature: Disability Wiki; EU Knowledge Graph; Enslaved.Org; Ensl
 
 <img src="images/supporting-data-drawio.png" title="workflow" alt="workflow" width="70%"/>
 
-- **Additional data** from **various sources**, e.g. IPCC data repositories, CrossRef, etc.
+- **Additional data** from **various sources**, e.g. IPCC data - web databases, Crossref, etc.
 - Preparing the supporting data for **import into Wikibase**
 
 ---
 
-## Import Scrape Data - Innovation that allows for Corpus text and data import {.smaller}
+## Import Scrape Data — Innovation That Allows for Corpus Text and Data Import {.smaller}
 
-This is the main innovation of the project - being able to semi-automatically webscrape a corpus and import text and images, and make a Linked Open Data corpus backbone as an Import to Wikibase and MediaWiki.
+The main innovation of the project — being able to semi-automatically web-scrape a corpus, import text and images, and make a Linked Open Data corpus backbone as an import to Wikibase and MediaWiki
 
 Wikitext + CSV > XML > DTD > Python (WikibaseIntegrator) > Wikibase / MediaWiki
 
 Documentation: [wiki.kewl.org/projects:ckgscrape](https://wiki.kewl.org/projects:ckgscrape) 
 
-Code: Mercurial Clone `hg clone https://hg.kewl.org/pub/ckg_s2mw`
+Code: Mercurial Clone `hg clone https://hg.kewl.org/pub/ckg_s2mw` (anti-bot credentials: username/password)
 
 Thank you to Darron M. Broad of Runstop for the software development work.
 
@@ -235,14 +244,18 @@ A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticC
 
 ::::: columns
 ::: {.column width="50%"}
-### Gender Equality
+#### Gender Equality
 <img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/>
+
+#### Climate Search
 <img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/>
 :::
 
 ::: {.column width="50%"}
-### Data Dashboard
+#### Data Dashboard
 <img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/>
+
+#### Author contributions
 <img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/>
 :::
 :::::
@@ -267,9 +280,9 @@ Possible **output option**:
 
 ### Planned use: 
 
-- A resource for data science — to use and contribute
-- Citizen science activities — Chapter annotation and enrichment 
-- Distribute to commons (Wikidata)  
+- A community resource for data science — to use and contribute
+- Citizen science activities — Chapter annotation and enrichment _#ChapterChampions_
+- Distribute metadata to commons (Wikidata)  
 
 ### Goals:
 
