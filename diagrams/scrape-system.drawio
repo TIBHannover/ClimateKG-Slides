@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" modified="2026-06-09T00:00:00.000Z" agent="GitHub Copilot" version="21.6.5" etag="converted-from-mermaid" type="device">
+  <diagram name="Scrape System" id="scrape-system">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- IPCC Website Subgraph -->
+        <mxCell id="subgraph-ipcc" value="IPCC Website" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="280" height="200" as="geometry" />
+        </mxCell>
+        
+        <!-- Nodes inside subgraph -->
+        <mxCell id="node-C" value="Chapter Source Urls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C1" value="Text" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C2" value="Assets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C3" value="Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Process nodes -->
+        <mxCell id="node-D" value="Scrape / clean" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-A" value="Find/Extract images" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-B" value="Collect information" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-E" value="Convert / clean" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Output nodes -->
+        <mxCell id="node-F" value="HTML files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-G" value="Wikitext files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-H" value="Ready for Import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-I" value="Assets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-K" value="HTML location, PDF location,&#xa;doi, OpenAlex ID, licence etc." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="180" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Edges -->
+        <mxCell id="edge-C-C1" edge="1" parent="1" source="node-C" target="node-C1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-C2" edge="1" parent="1" source="node-C" target="node-C2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-C3" edge="1" parent="1" source="node-C" target="node-C3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C1-D" value="WGET" edge="1" parent="1" source="node-C1" target="node-D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-D-F" edge="1" parent="1" source="node-D" target="node-F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-F-E" value="Pandoc" edge="1" parent="1" source="node-F" target="node-E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-E-G" edge="1" parent="1" source="node-E" target="node-G">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-G-H" edge="1" parent="1" source="node-G" target="node-H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C2-A" edge="1" parent="1" source="node-C2" target="node-A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-A-I" edge="1" parent="1" source="node-A" target="node-I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-I-H" edge="1" parent="1" source="node-I" target="node-H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C3-B" edge="1" parent="1" source="node-C3" target="node-B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-B-K" edge="1" parent="1" source="node-B" target="node-K">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-K-H" edge="1" parent="1" source="node-K" target="node-H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
