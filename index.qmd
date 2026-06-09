@@ -50,11 +50,16 @@ Transform PDF and web corpus, and web databases into a knowledge graph with:
 :::
 
 ::: {style="grid-column: 2; grid-row: 1; text-align: center;"}
-<!-- Cell 1,2 - Add content here -->Metadata
+<!-- Cell 1,2 - Add content here -->[Metadata](https://prod-climatekg.semanticclimate.org/wiki/Item:Q106)
+
+<img src="images/metadata.jpg" title="Metadata" alt="Metadata" style="max-width: 150px; width: 100%;"/> 
 :::
 
 ::: {style="grid-column: 3; grid-row: 1; text-align: center;"}
-<!-- Cell 1,3 - Add content here -->API / SPARQL Endpoint
+<!-- Cell 1,3 - Add content here -->[API](https://prod-climatekg.semanticclimate.org/api.php) / [SPARQL Endpoint](https://prod-climatekg.semanticclimate.org/query/#%23defaultView%3AGraph%0ASELECT%20%3Fchapter%20%3FchapterLabel%20%3Frelated%20%3FrelatedLabel%0AWHERE%20%7B%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP3%3E%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fentity%2FQ110%3E%20.%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP12%3E%20%3Frelated%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D)
+
+<img src="images/sparql.jpg" title="SPARQL Endpoint" alt="SPARQL Endpoint" style="max-width: 150px; width: 100%;"/> 
+
 :::
 
 ::: {style="grid-column: 1; grid-row: 2; text-align: center;"}
