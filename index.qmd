@@ -244,7 +244,7 @@ A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticC
 
 ::::: columns
 ::: {.column width="50%"}
-#### Gender Equality
+#### [Gender Equality](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/ar6-authors-distribution-analysis.html) 
 <img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/>
 
 #### Climate Search
@@ -252,7 +252,7 @@ A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticC
 :::
 
 ::: {.column width="50%"}
-#### Data Dashboard
+#### [Data Dashboard](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/wikibase-inventory-dashboard.html) 
 <img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/>
 
 #### Author contributions
