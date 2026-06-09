@@ -1,0 +1,14 @@
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#f0f0f0', 'primaryTextColor':'#000', 'primaryBorderColor':'#000', 'lineColor':'#666', 'fontSize':'18px'}, 'flowchart': {'nodeSpacing': 20, 'rankSpacing': 25, 'padding': 35, 'htmlLabels': true}}}%%
+flowchart TD
+    A[CSV] --> B[XML]
+    B --> C[DTD]
+    C --> D[Schemas]
+    D --> E[Python WikibaseIntegrator]
+    E --> F[Wikibase]
+    
+    style A min-width:150px
+    style B min-width:150px
+    style C min-width:150px
+    style D min-width:150px
+    style E min-width:250px
+    style F min-width:150px

@@ -8,8 +8,6 @@ footer: "CC-BY-SA 4.0 License"
 
 ## About ClimateKG {.smaller}
 
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=scrape-system.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fmrchristian%2FNCP-slides%2Fmain%2Fdiagrams%2Fscrape-system.drawio"></iframe>
-
 - Climate Knowledge Graph (ClimateKG) is a yearlong R&D project to create a knowledge&nbsp;graph of the *IPCC Sixth Assement Report (AR6)*.   
 - The ClimateKG knowledge graph is built using Wikibase and MediaWiki. 
 - The goal is to be a resource for: 
@@ -179,20 +177,7 @@ Thank you to Darron M. Broad of Runstop for the software development work.
 ::::: columns
 ::: {.column width="30%"}
 ```{mermaid}
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#f0f0f0', 'primaryTextColor':'#000', 'primaryBorderColor':'#000', 'lineColor':'#666', 'fontSize':'18px'}, 'flowchart': {'nodeSpacing': 20, 'rankSpacing': 25, 'padding': 35, 'htmlLabels': true}}}%%
-flowchart TD
-    A[CSV] --> B[XML]
-    B --> C[DTD]
-    C --> D[Schemas]
-    D --> E[Python<br/>WikibaseIntegrator]
-    E --> F[Wikibase]
-    
-    style A min-width:150px
-    style B min-width:150px
-    style C min-width:150px
-    style D min-width:150px
-    style E min-width:250px
-    style F min-width:150px
+%%| file: diagrams/import-supporting-data.mmd
 ```
 :::
 
@@ -221,10 +206,9 @@ Data can be browsed as XML and XSLT transforms here: [ClimateKG Data](https://ti
 
 ## DevOps {.smaller}
 
-A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to TIB hosting shortly once initial development resolved.
+A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to WB4R and TIB hosting shortly once initial development resolved.
 
 ```
-DATABASE/CONTENT FLOW (via sync scripts):
 ┌──────────────┐                    ┌──────────────┐
 │   LOCAL      │◄───pull-from-dev───│     DEV      │  DEV = DB source of truth
 │ (workstation)│                    │ (178...88)   │  Content edited here
@@ -240,7 +224,6 @@ DATABASE/CONTENT FLOW (via sync scripts):
    └──────────────┘                  └──────┬───────┘
                                             │
                                             │ sync-dev-to-prod  (or sync-test-to-prod)
-                                            │
                                             ↓
                                        ┌──────────────┐
                                        │    PROD      │  Public instance

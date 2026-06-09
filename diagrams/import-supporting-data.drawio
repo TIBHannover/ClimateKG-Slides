@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2026-06-09T00:00:00.000Z" agent="GitHub Copilot" version="21.6.5" etag="converted-from-mermaid" type="device">
+  <diagram name="Import Supporting Data" id="import-supporting-data">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Nodes -->
+        <mxCell id="node-A" value="CSV" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="150" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-B" value="XML" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="150" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C" value="DTD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="150" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-D" value="Schemas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="150" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-E" value="Python&lt;br&gt;WikibaseIntegrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="250" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-F" value="Wikibase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Edges -->
+        <mxCell id="edge-A-B" edge="1" parent="1" source="node-A" target="node-B">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge-B-C" edge="1" parent="1" source="node-B" target="node-C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-D" edge="1" parent="1" source="node-C" target="node-D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-D-E" edge="1" parent="1" source="node-D" target="node-E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-E-F" edge="1" parent="1" source="node-E" target="node-F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

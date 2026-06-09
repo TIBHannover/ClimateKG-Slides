@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" modified="2026-06-09T00:00:00.000Z" agent="GitHub Copilot" version="21.6.5" etag="converted-from-mermaid" type="device">
+  <diagram name="Supporting Data" id="supporting-data">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Main entities (circular nodes) -->
+        <mxCell id="node-A" value="Report" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-B" value="Chapter" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-AB1" value="Bibliographic Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="150" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C" value="Contributor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Contributor attributes -->
+        <mxCell id="node-C1" value="Name" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C2" value="Role" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C3" value="Gender" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C4" value="Country" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C5" value="Affiliation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Glossary -->
+        <mxCell id="node-D" value="Glossary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-D1" value="Term" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-D2" value="Definition" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Acronyms -->
+        <mxCell id="node-E" value="Acronyms" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-E1" value="Acronym" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="880" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-E2" value="Description" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="970" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Edges -->
+        <mxCell id="edge-A-AB1" edge="1" parent="1" source="node-A" target="node-AB1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-B-AB1" edge="1" parent="1" source="node-B" target="node-AB1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-C1" edge="1" parent="1" source="node-C" target="node-C1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-C2" edge="1" parent="1" source="node-C" target="node-C2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-C3" edge="1" parent="1" source="node-C" target="node-C3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-C4" edge="1" parent="1" source="node-C" target="node-C4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-C5" edge="1" parent="1" source="node-C" target="node-C5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-D-D1" edge="1" parent="1" source="node-D" target="node-D1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-D-D2" edge="1" parent="1" source="node-D" target="node-D2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-E-E1" edge="1" parent="1" source="node-E" target="node-E1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-E-E2" edge="1" parent="1" source="node-E" target="node-E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

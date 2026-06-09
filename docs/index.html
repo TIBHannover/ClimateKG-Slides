@@ -347,8 +347,6 @@ Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB –
 </section>
 <section id="about-climatekg" class="slide level2 smaller center">
 <h2>About ClimateKG</h2>
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?tags=%7B%7D&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;title=scrape-system.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fmrchristian%2FNCP-slides%2Fmain%2Fdiagrams%2Fscrape-system.drawio">
-</iframe>
 <ul>
 <li>Climate Knowledge Graph (ClimateKG) is a yearlong R&amp;D project to create a knowledge&nbsp;graph of the <em>IPCC Sixth Assement Report (AR6)</em>.<br>
 </li>
@@ -507,7 +505,7 @@ Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB –
 <h2>Import Supporting Data</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
-<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell" data-reveal="true" data-file="diagrams/import-supporting-data.mmd" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
@@ -517,7 +515,7 @@ flowchart TD
     A[CSV] --&gt; B[XML]
     B --&gt; C[DTD]
     C --&gt; D[Schemas]
-    D --&gt; E[Python&lt;br/&gt;WikibaseIntegrator]
+    D --&gt; E[Python WikibaseIntegrator]
     E --&gt; F[Wikibase]
     
     style A min-width:150px
@@ -550,9 +548,8 @@ flowchart TD
 </section>
 <section id="devops" class="slide level2 smaller center">
 <h2>DevOps</h2>
-<p>A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to TIB hosting shortly once initial development resolved.</p>
-<pre><code>DATABASE/CONTENT FLOW (via sync scripts):
-┌──────────────┐                    ┌──────────────┐
+<p>A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to WB4R and TIB hosting shortly once initial development resolved.</p>
+<pre><code>┌──────────────┐                    ┌──────────────┐
 │   LOCAL      │◄───pull-from-dev───│     DEV      │  DEV = DB source of truth
 │ (workstation)│                    │ (178...88)   │  Content edited here
 └──────┬───────┘                    └──────┬───────┘
@@ -567,7 +564,6 @@ flowchart TD
    └──────────────┘                  └──────┬───────┘
                                             │
                                             │ sync-dev-to-prod  (or sync-test-to-prod)
-                                            │
                                             ↓
                                        ┌──────────────┐
                                        │    PROD      │  Public instance

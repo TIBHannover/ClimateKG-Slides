@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" modified="2026-06-09T00:00:00.000Z" agent="GitHub Copilot" version="21.6.5" etag="converted-from-mermaid" type="device">
+  <diagram name="Workflow Overview" id="workflow-overview">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Data Sources Subgraph -->
+        <mxCell id="subgraph-sources" value="Data Sources" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-A" value="Scoping data sources +&lt;br&gt;Data Modeling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Data Retrieval Subgraph -->
+        <mxCell id="subgraph-retrieval" value="Data Retrieval" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="240" height="280" as="geometry" />
+        </mxCell>
+        
+        <!-- IPCC Subgraph inside retrieval -->
+        <mxCell id="subgraph-ipcc" value="IPCC" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="200" height="100" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-B" value="Text / Images:&lt;br&gt;Scrape + Convert" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="160" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Other Sources Subgraph inside retrieval -->
+        <mxCell id="subgraph-other" value="Other Sources" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="200" height="100" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-C" value="Supporting Data Collection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="160" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Data Import Subgraph -->
+        <mxCell id="subgraph-import" value="Data Import" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="200" height="280" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-D" value="Import Text / Images" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-E" value="Import Supporting Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="220" width="160" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- DevOps Subgraph -->
+        <mxCell id="subgraph-devops" value="DevOps" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="800" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-F" value="MediaWiki + Wikibase" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Data Output Subgraph -->
+        <mxCell id="subgraph-output" value="Data Output" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="40" width="320" height="400" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-G" value="Browse in MediaWiki" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="80" width="260" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-H" value="Data Visualisations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="140" width="260" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-I" value="Linked Open Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="200" width="260" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-J" value="CSS Paged Media Output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="260" width="260" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="node-K" value="More..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="320" width="260" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Edges -->
+        <mxCell id="edge-A-B" edge="1" parent="1" source="node-A" target="node-B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-A-C" edge="1" parent="1" source="node-A" target="node-C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-B-D" edge="1" parent="1" source="node-B" target="node-D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-C-E" edge="1" parent="1" source="node-C" target="node-E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-D-F" edge="1" parent="1" source="node-D" target="node-F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-E-F" edge="1" parent="1" source="node-E" target="node-F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-F-G" edge="1" parent="1" source="node-F" target="node-G">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-F-H" edge="1" parent="1" source="node-F" target="node-H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-F-I" edge="1" parent="1" source="node-F" target="node-I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-F-J" edge="1" parent="1" source="node-F" target="node-J">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge-F-K" edge="1" parent="1" source="node-F" target="node-K">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
