@@ -40,7 +40,7 @@ The project has been funded by **TIB Innovation Fund** and is made in cooperatio
 ## ClimateKG Project Deliverables{.smaller}
 
 ::: {style="text-align: center;"}
-Transform PDF and web corpus, and web databases into a knowledge graph with:
+Transform PDF & web corpus, and web databases into a knowledge graph with a reusable pipeline made by ClimateKG:
 :::
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 20px; margin-top: 20px;"}
