@@ -2,7 +2,7 @@
 title: "ClimateKG — Surfacing&nbsp;Knowledge"
 subtitle: "A community knowledge graph: <br/>Based on FAIR&nbsp;Data & UNESCO Open&nbsp;Science Principles"
 author: "Simon Worthington & Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB – Leibniz Information Centre for Science and Technology"
-date: 2026-06-10
+date: today
 footer: "CC-BY-SA 4.0 License"
 ---
 
