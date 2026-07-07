@@ -77,7 +77,7 @@ Transform PDF & web corpus, and web databases into a knowledge graph with a reus
 :::
 
 ::: {style="grid-column: 3; grid-row: 2; text-align: center;"}
-<!-- Cell 2,3 - Add content here -->Data workbench: [JupyterLab / Quarto](https://tibhannover.github.io/Climate-KG-data/)
+<!-- Cell 2,3 - Add content here -->Data workbench: [JupyterLab / Quarto](https://tibhannover.github.io/ClimateKG-Data-Bench/)
 
 <img src="images/quarto.jpg" title="Data workbench" alt="Data workbench" style="max-width: 140px; width: 100%;"/> 
 
@@ -175,7 +175,7 @@ Wikitext + CSV > XML > DTD > Python (WikibaseIntegrator) > Wikibase / MediaWiki
 
 Documentation: [wiki.kewl.org/projects:ckgscrape](https://wiki.kewl.org/projects:ckgscrape) 
 
-Code: Mercurial Clone `hg clone https://hg.kewl.org/pub/ckg_s2mw` (anti-bot credentials: username/password)
+Code: Mercurial Clone `hg clone https://hg.kewl.org/pub/ckg_s2mw` (anti-bot credentials: anonymous/anonymous)
 
 Thank you to Darron M. Broad of Runstop for the software development work.
 
@@ -195,7 +195,7 @@ Thank you to Darron M. Broad of Runstop for the software development work.
 ::::: 
 
 ::: aside
-Data output as HTML using XSLT from XML: [Corpus](https://tibhannover.github.io/Climate-KG-data/data/corpus-ar6.html) | [Bibliography](https://tibhannover.github.io/Climate-KG-data/data/bibliographic-ar6.html) | [Authors](https://tibhannover.github.io/Climate-KG-data/data/authors-ar6.html) | [Glossary](https://tibhannover.github.io/Climate-KG-data/data/glossary-ar6.html) | [Acronyms](https://tibhannover.github.io/Climate-KG-data/data/acronyms-ar6.html) | [ClimateKG Data XML how-to](https://tibhannover.github.io/Climate-KG-data/xml-html-documentation.html)  
+Data output as HTML using XSLT from XML: [Corpus](https://tibhannover.github.io/ClimateKG-Data-Bench/data/corpus-ar6.html) | [Bibliography](https://tibhannover.github.io/ClimateKG-Data-Bench/data/bibliographic-ar6.html) | [Authors](https://tibhannover.github.io/ClimateKG-Data-Bench/data/authors-ar6.html) | [Glossary](https://tibhannover.github.io/ClimateKG-Data-Bench/data/glossary-ar6.html) | [Acronyms](https://tibhannover.github.io/ClimateKG-Data-Bench/data/acronyms-ar6.html) | [ClimateKG Data XML how-to](https://tibhannover.github.io/ClimateKG-Data-Bench/xml-html-documentation.html)  
 :::  
 
 
@@ -244,24 +244,24 @@ A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticC
 
 ::::: columns
 ::: {.column width="50%"}
-#### [Gender Equality](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/ar6-authors-distribution-analysis.html) 
+#### [Gender Equality](https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html) 
 <img src="images/newplot.png" title="distribution" alt="distribution" width="50%"/>
 
-#### [Buildings & Urban Environment](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/buildings-urban-chapters.html)
+#### [Buildings & Urban Environment](https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/buildings-urban-chapters.html)
 <img src="images/build.png" title="Buildings & Urban Environment" alt="Buildings & Urban Environment" width="50%"/>
 :::
 
 ::: {.column width="50%"}
-#### [Data Dashboard](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/kg-stats-dashboard.html) 
+#### [Data Dashboard](https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/kg-stats-dashboard.html) 
 <img src="images/dash.png" title="Dashboard" alt="Dashboard" width="50%"/>
 
-#### [Authors Top 10 Global South](https://tibhannover.github.io/Climate-KG-data/research_data/data-vis/authors-top-ten.html)
+#### [Authors Top 10 Global South](https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/authors-top-ten.html)
 <img src="images/authors.png" title="Dashboard" alt="Dashboard" width="50%"/>
 :::
 :::::
 
 ::: aside
-Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhannover.github.io/Climate-KG-data/](https://tibhannover.github.io/Climate-KG-data/)
+Generated direct from Wikibase KG using Python, Notebooks, and Quarto: [tibhannover.github.io/ClimateKG-Data-Bench/](https://tibhannover.github.io/ClimateKG-Data-Bench/)
 :::
 
 ---
