@@ -8,18 +8,15 @@ footer: "CC-BY-SA 4.0 License"
 
 ## About ClimateKG {.smaller}
 
-- Climate Knowledge Graph (ClimateKG) is a yearlong R&D project to create a knowledge&nbsp;graph of the *IPCC Sixth Assement Report (AR6)*.   
+- Climate Knowledge Graph (ClimateKG) is a yearlong (2025-26) R&D project to create a knowledge&nbsp;graph of the *IPCC Sixth Assement Report (AR6)*.   
 - The ClimateKG knowledge graph is built using Wikibase and MediaWiki. 
 - The goal is to be a resource for: 
   - data science use, for 
-  - citizen science activities, and to 
-  - distribute climate science metadata to Wikidata.
+  - citizen science activities, 
+  - to distribute climate science literature metadata, and 
+  - for document distribution.
 
-The project has been funded by **TIB Innovation Fund** and is made in cooperation with #semanticClimate community (India, Germany, UK, +).     
-
-::: {style="text-align: center; margin-top: 20px;"}
-<img src="images/tib-logo.png" title="TIB Logo" alt="TIB Logo" width="220"/>
-:::
+The project has been funded by **TIB Innovation Fund** and is made in cooperation with #semanticClimate community (India, UK, Germany, and more).     
 
 ---
 
