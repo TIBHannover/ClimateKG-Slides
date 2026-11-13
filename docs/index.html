@@ -9,7 +9,7 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.10.19">
 
-  <meta name="author" content="Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for Science and Technology">
+  <meta name="author" content="Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for Science and Technology; and Laura Oldenbourg, Peter Murray-Rust, and team #semanticClimate">
   <meta name="dcterms.date" content="2026-11-13">
   <title>ClimateKG</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -141,7 +141,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for Science and Technology
+Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for Science and Technology; and Laura Oldenbourg, Peter Murray-Rust, and team #semanticClimate
 </div>
 </div>
 </div>
@@ -174,16 +174,13 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 </blockquote>
 <ul>
 <li>A multilateral panel of 195 nations that reviews the global scientific literature to map out climate scenarios for the next 100 years combining science, policy, and politics.</li>
-<li>AR6 (Approx. 5-8 year cycle since 1988): 932 authors; 7 Reports; &gt;8 million words; 10,009 pages; 48,400 citations; 66,834 data sets; 2,136 images; 1,910 Acronyms; 920 Glossary items; 5 languages+ (partial).*</li>
+<li>AR6 (Approx. 5-8 year cycle since 1988): 932 authors; 7 Reports; &gt;8 million words; 10,009 pages; 48,400 citations; 66,834 data sets; 2,136 images; 1,910 Acronyms; 920 Glossary items; 5 languages+ (partial). (<a href="https://doi.org/10.5281/zenodo.17521936">10.5281/zenodo.17521936</a>)</li>
 </ul>
-
-<aside><div>
-<p>* Oldenbourg, Laura, and Simon Worthington. “IPCC AR6 Quantification Summary”. Climate Knowledge Graph, November 4, 2025. <a href="https://doi.org/10.5281/zenodo.17521936">10.5281/zenodo.17521936</a>.</p>
-</div></aside></section>
+</section>
 <section id="climatekg-project-deliverables" class="slide level2 smaller center">
 <h2>ClimateKG Project Deliverables</h2>
 <div style="text-align: center;">
-<p>Transform PDF &amp; web corpus, and web databases into a knowledge graph with a reusable pipeline made by ClimateKG:</p>
+<p>Scrape the AR6 web corpus and web databases into a knowledge graph with a reusable open-source pipeline made by ClimateKG (no AI):</p>
 </div>
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 20px; margin-top: 20px;">
 <div style="grid-column: 1; grid-row: 1; text-align: center;">
@@ -192,22 +189,22 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 </div>
 <div style="grid-column: 2; grid-row: 1; text-align: center;">
 <!-- Cell 1,2 - Add content here -->
-<p><a href="https://prod-climatekg.semanticclimate.org/wiki/Item:Q106">Metadata</a></p>
+<p><a href="https://climatekg.tibwiki.io/wiki/Item:Q106">Metadata</a></p>
 <p><img src="images/metadata.jpg" title="Metadata" alt="Metadata" style="max-width: 150px; width: 100%;"></p>
 </div>
 <div style="grid-column: 3; grid-row: 1; text-align: center;">
 <!-- Cell 1,3 - Add content here -->
-<p><a href="https://prod-climatekg.semanticclimate.org/api.php">API</a> / <a href="https://prod-climatekg.semanticclimate.org/query/#%23defaultView%3AGraph%0ASELECT%20%3Fchapter%20%3FchapterLabel%20%3Frelated%20%3FrelatedLabel%0AWHERE%20%7B%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP3%3E%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fentity%2FQ110%3E%20.%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP12%3E%20%3Frelated%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D">SPARQL Endpoint</a></p>
+<p><a href="https://climatekg.tibwiki.io/api.php">API</a> / <a href="https://climatekg.tibwiki.io/query/#%23defaultView%3AGraph%0ASELECT%20%3Fchapter%20%3FchapterLabel%20%3Frelated%20%3FrelatedLabel%0AWHERE%20%7B%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fclimatekg.tibwiki.io.org%2Fprop%2Fdirect%2FP3%3E%20%3Chttps%3A%2F%2Fclimatekg.tibwiki.io%2Fentity%2FQ110%3E%20.%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fclimatekg.tibwiki.io.org%2Fprop%2Fdirect%2FP12%3E%20%3Frelated%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D">SPARQL Endpoint</a></p>
 <p><img src="images/sparql.jpg" title="SPARQL Endpoint" alt="SPARQL Endpoint" style="max-width: 150px; width: 100%;"></p>
 </div>
 <div style="grid-column: 1; grid-row: 2; text-align: center;">
 <!-- Cell 2,1 - Add content here -->
-<p>Claude &amp; LLMs IDE integration</p>
-<p><img src="images/chat.png" title="Claude &amp; LLMs IDE integration" alt="Claude &amp; LLMs IDE integration" style="max-width: 130px; width: 100%;"></p>
+<p>Wikibase supports MCP &amp; LLM integration</p>
+<p><img src="images/chat.png" title="CP &amp; LLMs integration" alt="CP &amp; LLMs integration" style="max-width: 70px; width: 100%;"></p>
 </div>
 <div style="grid-column: 2; grid-row: 2; text-align: center;">
 <!-- Cell 2,2 - Add content here -->
-<p>Schemas / Ontologies: DataCite, OpenAlex, Basic Formal Ontology (BFO), etc</p>
+<p>Designed for schemas / Ontology mapping</p>
 <p><img src="images/schema.png" title="Schemas / Ontologies" alt="Schemas / Ontologies" style="max-width: 120px; width: 100%;"></p>
 </div>
 <div style="grid-column: 3; grid-row: 2; text-align: center;">
@@ -280,8 +277,8 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 <aside><div>
 <p>Wikibase KG literature: Disability Wiki; EU Knowledge&nbsp;Graph; Enslaved.Org; Enslave Modular Ontology Modeling (MOMo); RaiseWikibase; Linking Historical Corpus Data and Annotations Using Wikibase (1737 Basque manuscript).</p>
 </div></aside></section>
-<section id="data-retrieval" class="slide level2 smaller center">
-<h2>Data Retrieval 📥</h2>
+<section id="data-retrieval-burgers-to-cows" class="slide level2 smaller center">
+<h2>Data Retrieval 📥: Burgers to Cows</h2>
 
 <img src="images/scrape-system-drawio.png" title="workflow" alt="workflow" width="70%" class="r-stretch"><ul>
 <li>Building a <strong>semi-automated scraping system</strong> from Web to MediaWiki/Wikibase</li>
@@ -301,7 +298,7 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 <h2>Import Scrape Data — Innovation That Allows for Corpus Text and Data Import</h2>
 <p>The main innovation of the project — being able to semi-automatically web-scrape a corpus, import text and images, and make a Linked Open Data corpus backbone as an import to Wikibase and MediaWiki</p>
 <p>Wikitext + CSV &gt; XML &gt; DTD &gt; Python (WikibaseIntegrator) &gt; Wikibase / MediaWiki</p>
-<p>Documentation: <a href="https://wiki.kewl.org/projects:ckgscrape">wiki.kewl.org/projects:ckgscrape</a></p>
+<p><strong>CKG Scrape</strong> open-source. Docs: <a href="https://wiki.kewl.org/projects:ckgscrape">wiki.kewl.org/projects:ckgscrape</a></p>
 <p>Code: Mercurial Clone <code>hg clone https://hg.kewl.org/pub/ckg_s2mw</code> (anti-bot credentials: anonymous/anonymous)</p>
 <p>Thank you to Darron M. Broad of Runstop for the software development work.</p>
 </section>
@@ -311,7 +308,7 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 <div class="column" style="width:30%;">
 <p><img src="images/import-supporting-data-drawio.png" title="workflow" alt="workflow" width="70%"></p>
 </div><div class="column" style="width:70%;">
-<p><img src="images/xml2.png" title="xml" alt="xml" width="80%"></p>
+<p><img src="images/xml2.png" title="xml" alt="xml" width="60%"></p>
 </div></div>
 
 <aside><div>
@@ -319,16 +316,16 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 </div></aside></section>
 <section id="browsing-the-corpus-in-mediawiki" class="slide level2 smaller center">
 <h2>Browsing the Corpus in MediaWiki 🔎</h2>
-
-<img src="images/browse-clean-list.png" title="MediaWiki" alt="MediaWiki screens" width="90%" class="r-stretch"><ul>
+<p><img src="images/browse-clean-list.png" title="MediaWiki" alt="MediaWiki screens" style="height: 300px; width: auto;"></p>
+<ul>
 <li><strong>Cleaning</strong> the chapter content directly in MediaWiki</li>
 <li>Building <strong>navigation and browsing templates</strong> for the corpus</li>
 <li>Adding <strong>glossary</strong> and <strong>acronym</strong> content to MediaWiki</li>
 </ul>
 </section>
-<section id="devops" class="slide level2 smaller center">
-<h2>DevOps</h2>
-<p>A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to WB4R and TIB hosting shortly once initial development resolved.</p>
+<section id="devops-web-hosting" class="slide level2 smaller center">
+<h2>DevOps Web Hosting</h2>
+<p>A 4 stage MediaWiki/Wikibase containerised workflow</p>
 <pre><code>┌──────────────┐                    ┌──────────────┐
 │   LOCAL      │◄───pull-from-dev───│     DEV      │  DEV = DB source of truth
 │ (workstation)│                    │ (178...88)   │  Content edited here
@@ -355,14 +352,14 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 <div class="columns">
 <div class="column" style="width:50%;">
 <h4 id="gender-equality"><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html">Gender Equality</a></h4>
-<p><img src="images/newplot.png" title="distribution" alt="distribution" width="50%"></p>
+<p><img src="images/newplot.png" title="distribution" alt="distribution" width="40%"></p>
 <h4 id="buildings-urban-environment"><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/buildings-urban-chapters.html">Buildings &amp; Urban Environment</a></h4>
-<p><img src="images/build.png" title="Buildings &amp; Urban Environment" alt="Buildings &amp; Urban Environment" width="50%"></p>
+<p><img src="images/build.png" title="Buildings &amp; Urban Environment" alt="Buildings &amp; Urban Environment" width="40%"></p>
 </div><div class="column" style="width:50%;">
 <h4 id="data-dashboard"><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/kg-stats-dashboard.html">Data Dashboard</a></h4>
-<p><img src="images/dash.png" title="Dashboard" alt="Dashboard" width="50%"></p>
+<p><img src="images/dash.png" title="Dashboard" alt="Dashboard" width="40%"></p>
 <h4 id="authors-top-10-global-south"><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/authors-top-ten.html">Authors Top 10 Global South</a></h4>
-<p><img src="images/authors.png" title="Dashboard" alt="Dashboard" width="50%"></p>
+<p><img src="images/authors.png" title="Dashboard" alt="Dashboard" width="40%"></p>
 </div></div>
 
 <aside><div>
@@ -370,11 +367,8 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 </div></aside></section>
 <section id="css-paged-media-as-output" class="slide level2 smaller center">
 <h2>CSS Paged Media as Output 📖</h2>
-
-<img src="images/paged-media.png" title="paged media" alt="paged media" width="80%" class="r-stretch"><p>Possible <strong>output option</strong> <a href="https://vivliostyle.vercel.app/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/chapter.json&amp;style=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/css-neutral/styles.css">Example chapter</a>:</p>
-<ul>
-<li>Using <strong>CSS Paged Media</strong> to typeset the corpus content into <strong>multi-format</strong> output</li>
-</ul>
+<p><img src="images/paged-media.png" title="paged media" alt="paged media" style="height: 300px; width: auto;"></p>
+<p>Using <strong>CSS Paged Media</strong> to typeset content into <strong>multi-format</strong> outputs - <a href="https://vivliostyle.vercel.app/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/chapter.json&amp;style=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/css-neutral/styles.css">Example chapter</a></p>
 </section>
 <section id="climatekg-next-steps" class="slide level2 smaller center">
 <h2>ClimateKG Next Steps 🚀</h2>
@@ -386,16 +380,13 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 </ul>
 <h3 id="goals">Goals:</h3>
 <ul>
-<li>Corpus KG service — Computation Publishing Service (CPS)</li>
+<li>Develop corpus KG service in general</li>
 <li>Work with IPCC and climate community</li>
 <li>Become a KG repository for <em>all</em> climate literature</li>
 </ul>
-<p><em>Thank you! Simon Worthington, Laura Oldenbourg, Peter Murray-Rust and team #semanticClimate — Nov ’26</em></p>
+<p><em>Thank you! — Nov ’26</em></p>
 
-
-<aside><div>
-<p>Main &lt;/&gt; repo: <a href="https://github.com/TIBHannover/climate-knowledge-graph">github.com/TIBHannover/climate-knowledge-graph</a></p>
-</div></aside></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/tib-logo.png" class="slide-logo"></p>
@@ -621,7 +612,7 @@ Simon Worthington, #semanticClimate and TIB – Leibniz Information Centre for S
 
       <img src="images/climatekg-qr.svg" alt="QR code for https://climatekg.tibwiki.io/">
 
-      <span>Preview - <a href="https://climatekg.tibwiki.io/">climatekg.tibwiki.io</a></span>
+      <span>ClimateKG Preview - <a href="https://climatekg.tibwiki.io/">climatekg.tibwiki.io/</a></span>
 
     </div>
 
